@@ -1,6 +1,6 @@
+/*navbar formatting*/
 .navbar {
     height: 100px;
-    background-color:  #adad85;
 }
 
 .navbar-brand {
@@ -11,6 +11,10 @@
 .navbar-collapse {
     position: absolute;
     right: 5%;
-    font-size: large;
-  }
+    font-size: 20px;
+}
+
+.dropdown-item {
+    font-weight: bold;
+}
 
