@@ -1,0 +1,16 @@
+.navbar {
+    height: 100px;
+    background-color:  #adad85;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.navbar-collapse {
+    position: absolute;
+    right: 5%;
+    font-size: large;
+  }
+
