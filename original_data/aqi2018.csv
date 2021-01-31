@@ -1,4 +1,4 @@
-us_state,county,year_end,days_with_aqi,good_days,moderate_days,unhealthy_sensitive_days,unhealthy_days,very_unhealthy_days,hazardous_days,max_aqi,90th_percentile_aqi,median_aqi,days_co,days_no2,days_ozone,days_so2,days_pm2.5,days_pm10
+us_state,county,year_end,days_with_aqi,good_days,moderate_days,unhealthy_sensitive_days,unhealthy_days,very_unhealthy_days,hazardous_days,max_aqi,ninetieth_percentile_aqi,median_aqi,days_co,days_no2,days_ozone,days_so2,days_pm2,days_pm10
 AL,Baldwin,12/31/2018,270,245,25,0,0,0,0,97,50,35,0,0,214,0,56,0
 AL,Clay,12/31/2018,110,103,7,0,0,0,0,64,45,27,0,0,0,0,110,0
 AL,Colbert,12/31/2018,277,251,26,0,0,0,0,93,50,35,0,0,209,0,68,0
