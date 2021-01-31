@@ -66,35 +66,35 @@ AL,Walker,10975,17.4
 AL,Washington,3303,20.2
 AL,Wilcox,3392,32
 AL,Winston,4980,21.3
-AK,Aleutians East Borough,491,14.6
-AK,Aleutians West Census Area,451,8.1
-AK,Anchorage Borough,27663,9.6
-AK,Bethel Census Area,5077,28.7
-AK,Bristol Bay Borough,92,10.9
-AK,Denali Borough,158,8
-AK,Dillingham Census Area,1015,20.8
-AK,Fairbanks North Star Borough,7051,7.4
-AK,Haines Borough,288,11.4
-AK,Hoonah-Angoon Census Area,376,17.6
-AK,Juneau Borough,2596,8.3
-AK,Kenai Peninsula Borough,5840,10.2
-AK,Ketchikan Gateway Borough,1341,9.9
-AK,Kodiak Island Borough,991,7.5
-AK,Kusilvak Census Area,3050,37.5
-AK,Lake and Peninsula Borough,253,15.7
-AK,Matanuska-Susitna Borough,11768,11.3
-AK,Nome Census Area,2248,23.2
-AK,North Slope Borough,1182,12.2
-AK,Northwest Arctic Borough,1974,26
-AK,Petersburg Borough,240,7.4
-AK,Prince of Wales-Hyder Census Area,1183,18.5
-AK,Sitka Borough,694,8.1
+AK,Aleutians East,491,14.6
+AK,Aleutians West,451,8.1
+AK,Anchorage,27663,9.6
+AK,Bethel,5077,28.7
+AK,Bristol Bay,92,10.9
+AK,Denali,158,8
+AK,Dillingham,1015,20.8
+AK,Fairbanks North Star,7051,7.4
+AK,Haines,288,11.4
+AK,Hoonah-Angoon,376,17.6
+AK,Juneau,2596,8.3
+AK,Kenai Peninsula,5840,10.2
+AK,Ketchikan Gateway,1341,9.9
+AK,Kodiak Island,991,7.5
+AK,Kusilvak,3050,37.5
+AK,Lake and Peninsula,253,15.7
+AK,Matanuska-Susitna,11768,11.3
+AK,Nome,2248,23.2
+AK,North Slope,1182,12.2
+AK,Northwest Arctic,1974,26
+AK,Petersburg,240,7.4
+AK,Prince of Wales-Hyder,1183,18.5
+AK,Sitka,694,8.1
 AK,Skagway Municipality,50,4.3
-AK,Southeast Fairbanks Census Area,872,12.8
-AK,Valdez-Cordova Census Area,845,9.2
-AK,Wrangell City and Borough,310,12.4
-AK,Yakutat Borough,92,15.3
-AK,Yukon-Koyukuk Census Area,1237,23.2
+AK,Southeast Fairbanks,872,12.8
+AK,Valdez-Cordova,845,9.2
+AK,Wrangell City and,310,12.4
+AK,Yakutat,92,15.3
+AK,Yukon-Koyukuk,1237,23.2
 AZ,Apache,23426,33.1
 AZ,Cochise,19219,16.1
 AZ,Coconino,23946,18.4
@@ -1111,70 +1111,70 @@ KY,Webster,1852,14.7
 KY,Whitley,9131,26.5
 KY,Wolfe,2129,29.9
 KY,Woodford,2415,9.3
-LA,Acadia Parish,14206,23.1
-LA,Allen Parish,4444,20.8
-LA,Ascension Parish,15316,12.6
-LA,Assumption Parish,4212,18.9
-LA,Avoyelles Parish,9243,24.6
-LA,Beauregard Parish,5170,14.6
-LA,Bienville Parish,3369,25.4
-LA,Bossier Parish,20997,16.8
-LA,Caddo Parish,62114,25.8
-LA,Calcasieu Parish,28177,14.2
-LA,Caldwell Parish,2190,23.4
-LA,Cameron Parish,909,13.2
-LA,Catahoula Parish,2504,27.8
-LA,Claiborne Parish,5145,39.5
-LA,Concordia Parish,5086,27.7
-LA,De Soto Parish,6162,22.8
-LA,East Baton Rouge Parish,82191,18.9
-LA,East Carroll Parish,2820,46.7
-LA,East Feliciana Parish,3501,20.6
-LA,Evangeline Parish,7609,23.6
-LA,Franklin Parish,5464,27.9
-LA,Grant Parish,4067,21
-LA,Iberia Parish,16887,23.8
-LA,Iberville Parish,6689,22.9
-LA,Jackson Parish,3635,24.6
-LA,Jefferson Parish,74274,17.1
-LA,Jefferson Davis Parish,5952,19.3
-LA,Lafayette Parish,41306,17.4
-LA,Lafourche Parish,15279,15.8
-LA,La Salle Parish,2519,18.4
-LA,Lincoln Parish,11963,27.9
-LA,Livingston Parish,15669,11.4
-LA,Madison Parish,3788,38.9
-LA,Morehouse Parish,6937,28
-LA,Natchitoches Parish,11137,30.3
-LA,Orleans Parish,99613,26.1
-LA,Ouachita Parish,37173,24.7
-LA,Plaquemines Parish,3741,16.2
-LA,Pointe Coupee Parish,4167,18.8
-LA,Rapides Parish,25427,19.9
-LA,Red River Parish,1944,23.3
-LA,Richland Parish,5407,27.8
-LA,Sabine Parish,5219,22.2
-LA,St. Bernard Parish,9166,20
-LA,St. Charles Parish,5953,11.4
-LA,St. Helena Parish,2373,23.2
-LA,St. James Parish,3532,16.7
-LA,St. John the Baptist Parish,7777,18.1
-LA,St. Landry Parish,21032,25.6
-LA,St. Martin Parish,10246,19.2
-LA,St. Mary Parish,10249,20.5
-LA,St. Tammany Parish,28338,11.1
-LA,Tangipahoa Parish,26919,20.9
-LA,Tensas Parish,1603,34.9
-LA,Terrebonne Parish,21712,19.7
-LA,Union Parish,3623,16.4
-LA,Vermilion Parish,10118,17
-LA,Vernon Parish,8662,18.3
-LA,Washington Parish,10371,23.1
-LA,Webster Parish,7727,20.3
-LA,West Baton Rouge Parish,3471,13.5
-LA,West Carroll Parish,2234,21.2
-LA,West Feliciana Parish,2113,21
-LA,Winn Parish,2982,23.7
+LA,Acadia,14206,23.1
+LA,Allen,4444,20.8
+LA,Ascension,15316,12.6
+LA,Assumption,4212,18.9
+LA,Avoyelles,9243,24.6
+LA,Beauregard,5170,14.6
+LA,Bienville,3369,25.4
+LA,Bossier,20997,16.8
+LA,Caddo,62114,25.8
+LA,Calcasieu,28177,14.2
+LA,Caldwell,2190,23.4
+LA,Cameron,909,13.2
+LA,Catahoula,2504,27.8
+LA,Claiborne,5145,39.5
+LA,Concordia,5086,27.7
+LA,De Soto,6162,22.8
+LA,East Baton Rouge,82191,18.9
+LA,East Carroll,2820,46.7
+LA,East Feliciana,3501,20.6
+LA,Evangeline,7609,23.6
+LA,Franklin,5464,27.9
+LA,Grant,4067,21
+LA,Iberia,16887,23.8
+LA,Iberville,6689,22.9
+LA,Jackson,3635,24.6
+LA,Jefferson,74274,17.1
+LA,Jefferson Davis,5952,19.3
+LA,Lafayette,41306,17.4
+LA,Lafourche,15279,15.8
+LA,La Salle,2519,18.4
+LA,Lincoln,11963,27.9
+LA,Livingston,15669,11.4
+LA,Madison,3788,38.9
+LA,Morehouse,6937,28
+LA,Natchitoches,11137,30.3
+LA,Orleans,99613,26.1
+LA,Ouachita,37173,24.7
+LA,Plaquemines,3741,16.2
+LA,Pointe Coupee,4167,18.8
+LA,Rapides,25427,19.9
+LA,Red River,1944,23.3
+LA,Richland,5407,27.8
+LA,Sabine,5219,22.2
+LA,St. Bernard,9166,20
+LA,St. Charles,5953,11.4
+LA,St. Helena,2373,23.2
+LA,St. James,3532,16.7
+LA,St. John the Baptist,7777,18.1
+LA,St. Landry,21032,25.6
+LA,St. Martin,10246,19.2
+LA,St. Mary,10249,20.5
+LA,St. Tammany,28338,11.1
+LA,Tangipahoa,26919,20.9
+LA,Tensas,1603,34.9
+LA,Terrebonne,21712,19.7
+LA,Union,3623,16.4
+LA,Vermilion,10118,17
+LA,Vernon,8662,18.3
+LA,Washington,10371,23.1
+LA,Webster,7727,20.3
+LA,West Baton Rouge,3471,13.5
+LA,West Carroll,2234,21.2
+LA,West Feliciana,2113,21
+LA,Winn,2982,23.7
 ME,Androscoggin,12975,12.4
 ME,Aroostook,9499,14.4
 ME,Cumberland,22900,8.1
