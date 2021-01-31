@@ -11,7 +11,7 @@ AL,Chambers,6656,19.9
 AL,Cherokee,4273,16.8
 AL,Chilton,7960,18.3
 AL,Choctaw,2910,22.7
-AL,Clarke,6977,29.0
+AL,Clarke,6977,29
 AL,Clay,2495,18.9
 AL,Cleburne,2527,17.2
 AL,Coffee,7271,14.4
@@ -30,7 +30,7 @@ AL,Etowah,17624,17.5
 AL,Fayette,3307,20.3
 AL,Franklin,6272,20.1
 AL,Geneva,5495,20.9
-AL,Greene,2845,34.0
+AL,Greene,2845,34
 AL,Hale,3495,23.7
 AL,Henry,3159,18.7
 AL,Houston,19878,19.4
@@ -42,24 +42,24 @@ AL,Lawrence,5530,16.8
 AL,Lee,28139,18.3
 AL,Limestone,11511,12.8
 AL,Lowndes,3252,31.7
-AL,Macon,5183,30.0
+AL,Macon,5183,30
 AL,Madison,47081,13.5
 AL,Marengo,5003,25.8
 AL,Marion,5386,18.5
-AL,Marshall,19703,21.0
+AL,Marshall,19703,21
 AL,Mobile,79364,19.5
 AL,Monroe,5472,25.7
 AL,Montgomery,40760,18.8
 AL,Morgan,18457,15.8
-AL,Perry,3066,35.0
+AL,Perry,3066,35
 AL,Pickens,4756,25.8
 AL,Pike,7793,25.1
 AL,Randolph,4839,21.8
 AL,Russell,11108,19.3
-AL,St. Clair,10352,12.0
+AL,St. Clair,10352,12
 AL,Shelby,16406,7.9
 AL,Sumter,3933,32.4
-AL,Talladega,13864,18.0
+AL,Talladega,13864,18
 AL,Tallapoosa,8111,20.2
 AL,Tuscaloosa,34384,17.6
 AL,Walker,13097,20.5
@@ -67,7 +67,7 @@ AL,Washington,3018,18.2
 AL,Wilcox,3466,31.9
 AL,Winston,4061,17.3
 AK,Aleutians East Borough,487,14.8
-AK,Aleutians West Census Area,438,8.0
+AK,Aleutians West Census Area,438,8
 AK,Anchorage Borough,21108,7.2
 AK,Bethel Census Area,4502,25.5
 AK,Bristol Bay Borough,100,11.4
@@ -77,13 +77,13 @@ AK,Fairbanks North Star Borough,8144,8.5
 AK,Haines Borough,257,10.3
 AK,Hoonah-Angoon Census Area,397,19.1
 AK,Juneau Borough,2334,7.4
-AK,Kenai Peninsula Borough,6835,12.0
+AK,Kenai Peninsula Borough,6835,12
 AK,Ketchikan Gateway Borough,1245,9.2
 AK,Kodiak Island Borough,991,7.3
 AK,Kusilvak Census Area,3033,37.8
 AK,Lake and Peninsula Borough,325,20.9
 AK,Matanuska-Susitna Borough,9641,9.5
-AK,Nome Census Area,2337,24.0
+AK,Nome Census Area,2337,24
 AK,North Slope Borough,1132,11.9
 AK,Northwest Arctic Borough,2114,27.8
 AK,Petersburg Borough,265,8.4
@@ -94,15 +94,15 @@ AK,Southeast Fairbanks Census Area,804,11.8
 AK,Valdez-Cordova Census Area,852,9.2
 AK,Wrangell City and Borough,274,11.5
 AK,Yakutat Borough,101,16.8
-AK,Yukon-Koyukuk Census Area,1266,23.0
+AK,Yukon-Koyukuk Census Area,1266,23
 AZ,Apache,23966,33.2
 AZ,Cochise,25424,21.1
 AZ,Coconino,23116,17.8
 AZ,Gila,10678,20.3
 AZ,Graham,7854,22.9
-AZ,Greenlee,1144,12.0
+AZ,Greenlee,1144,12
 AZ,La Paz,4976,24.8
-AZ,Maricopa,624923,15.0
+AZ,Maricopa,624923,15
 AZ,Mohave,36665,18.3
 AZ,Navajo,30379,28.2
 AZ,Pima,180513,18.2
@@ -132,7 +132,7 @@ AR,Cross,3252,19.4
 AR,Dallas,1464,20.8
 AR,Desha,3125,26.5
 AR,Drew,3387,19.2
-AR,Faulkner,18782,16.0
+AR,Faulkner,18782,16
 AR,Franklin,3103,17.9
 AR,Fulton,2767,23.2
 AR,Garland,17037,17.8
@@ -147,7 +147,7 @@ AR,Jackson,3587,24.1
 AR,Jefferson,15094,23.3
 AR,Johnson,4699,18.4
 AR,Lafayette,1838,27.4
-AR,Lawrence,3207,20.0
+AR,Lawrence,3207,20
 AR,Lee,2701,35.9
 AR,Lincoln,2726,27.6
 AR,Little River,2148,17.5
@@ -157,7 +157,7 @@ AR,Madison,2910,18.3
 AR,Marion,3342,20.7
 AR,Miller,9504,22.4
 AR,Mississippi,10307,24.6
-AR,Monroe,1909,27.0
+AR,Monroe,1909,27
 AR,Montgomery,1956,22.4
 AR,Nevada,1680,20.4
 AR,Newton,1566,19.9
@@ -184,7 +184,7 @@ AR,Van Buren,2737,16.7
 AR,Washington,34567,15.8
 AR,White,11843,15.7
 AR,Woodruff,1712,26.3
-AR,Yell,3817,18.0
+AR,Yell,3817,18
 CA,Alameda,173386,10.7
 CA,Alpine,199,18.6
 CA,Amador,3846,11.3
@@ -196,7 +196,7 @@ CA,Del Norte,5842,23.7
 CA,El Dorado,16073,8.7
 CA,Fresno,245131,25.5
 CA,Glenn,4632,16.7
-CA,Humboldt,26632,20.0
+CA,Humboldt,26632,20
 CA,Imperial,40601,23.6
 CA,Inyo,2184,12.3
 CA,Kern,190993,22.4
@@ -207,7 +207,7 @@ CA,Los Angeles,1629450,16.3
 CA,Madera,30029,20.4
 CA,Marin,19932,7.8
 CA,Mariposa,3077,17.9
-CA,Mendocino,16366,19.0
+CA,Mendocino,16366,19
 CA,Merced,53417,20.3
 CA,Modoc,1571,18.4
 CA,Mono,1583,11.5
@@ -224,7 +224,7 @@ CA,San Bernardino,369012,17.6
 CA,San Diego,400028,12.4
 CA,San Francisco,87690,10.2
 CA,San Joaquin,105268,14.6
-CA,San Luis Obispo,29345,11.0
+CA,San Luis Obispo,29345,11
 CA,San Mateo,50438,6.6
 CA,Santa Barbara,59468,13.9
 CA,Santa Clara,175627,9.3
@@ -241,39 +241,39 @@ CA,Trinity,2668,21.3
 CA,Tulare,112387,24.7
 CA,Tuolumne,7781,15.4
 CA,Ventura,81792,9.8
-CA,Yolo,39303,19.0
+CA,Yolo,39303,19
 CA,Yuba,12288,16.6
 CO,Adams,57811,11.7
 CO,Alamosa,3816,24.8
-CO,Arapahoe,56898,9.0
-CO,Archuleta,1523,12.0
+CO,Arapahoe,56898,9
+CO,Archuleta,1523,12
 CO,Baca,702,20.2
 CO,Bent,1358,34.1
 CO,Boulder,33749,10.8
 CO,Broomfield,3518,5.3
 CO,Chaffee,2009,11.4
-CO,Cheyenne,252,14.0
+CO,Cheyenne,252,14
 CO,Clear Creek,753,8.1
 CO,Conejos,1836,22.7
 CO,Costilla,1128,30.4
-CO,Crowley,1471,48.0
+CO,Crowley,1471,48
 CO,Custer,605,13.6
 CO,Delta,5300,17.8
-CO,Denver,95232,14.0
+CO,Denver,95232,14
 CO,Dolores,271,13.2
 CO,Douglas,11114,3.4
 CO,Eagle,4239,7.9
-CO,Elbert,1516,6.0
+CO,Elbert,1516,6
 CO,El Paso,76997,11.5
 CO,Fremont,6861,17.5
 CO,Garfield,5276,9.1
 CO,Gilpin,440,7.5
 CO,Grand,1220,8.2
 CO,Gunnison,2128,13.8
-CO,Hinsdale,77,10.0
+CO,Hinsdale,77,10
 CO,Huerfano,1425,21.9
 CO,Jackson,191,14.1
-CO,Jefferson,39397,7.0
+CO,Jefferson,39397,7
 CO,Kiowa,189,13.9
 CO,Kit Carson,1023,14.3
 CO,Lake,1093,14.6
@@ -282,7 +282,7 @@ CO,Larimer,37023,11.2
 CO,Las Animas,2869,21.6
 CO,Lincoln,834,18.1
 CO,Logan,3056,16.4
-CO,Mesa,21922,15.0
+CO,Mesa,21922,15
 CO,Mineral,68,9.3
 CO,Moffat,1676,12.9
 CO,Montezuma,4031,15.1
@@ -345,7 +345,7 @@ FL,Hardee,6081,23.8
 FL,Hendry,9712,25.1
 FL,Hernando,27794,15.4
 FL,Highlands,19035,19.1
-FL,Hillsborough,203350,15.0
+FL,Hillsborough,203350,15
 FL,Holmes,4276,24.2
 FL,Indian River,18518,12.3
 FL,Jackson,9045,22.6
@@ -353,7 +353,7 @@ FL,Jefferson,2398,18.9
 FL,Lafayette,1609,23.3
 FL,Lake,39212,11.8
 FL,Lee,91333,12.8
-FL,Leon,52124,19.0
+FL,Leon,52124,19
 FL,Levy,8467,21.4
 FL,Liberty,1468,23.6
 FL,Madison,5205,31.9
@@ -373,7 +373,7 @@ FL,Pinellas,125923,13.3
 FL,Polk,106703,16.4
 FL,Putnam,15220,21.5
 FL,St. Johns,17838,7.7
-FL,St. Lucie,51657,17.0
+FL,St. Lucie,51657,17
 FL,Santa Rosa,17308,10.6
 FL,Sarasota,43904,10.8
 FL,Seminole,51750,11.4
@@ -389,7 +389,7 @@ GA,Appling,3542,19.7
 GA,Atkinson,2176,26.4
 GA,Bacon,2524,22.9
 GA,Baker,871,27.8
-GA,Baldwin,10273,26.0
+GA,Baldwin,10273,26
 GA,Banks,2845,15.5
 GA,Barrow,9888,12.9
 GA,Bartow,15442,15.1
@@ -400,12 +400,12 @@ GA,Bleckley,2514,21.7
 GA,Brantley,3795,20.8
 GA,Brooks,3854,24.9
 GA,Bryan,3456,9.6
-GA,Bulloch,16650,24.0
+GA,Bulloch,16650,24
 GA,Burke,5986,26.7
-GA,Butts,3586,17.0
-GA,Calhoun,1541,33.0
-GA,Camden,7573,15.0
-GA,Candler,2647,25.0
+GA,Butts,3586,17
+GA,Calhoun,1541,33
+GA,Camden,7573,15
+GA,Candler,2647,25
 GA,Carroll,16713,14.9
 GA,Catoosa,8505,12.9
 GA,Charlton,2725,27.2
@@ -416,10 +416,10 @@ GA,Cherokee,17948,7.5
 GA,Clarke,31950,27.9
 GA,Clay,1040,35.2
 GA,Clayton,57057,20.8
-GA,Clinch,1752,26.0
-GA,Cobb,73446,10.0
-GA,Coffee,9153,23.0
-GA,Colquitt,11252,25.0
+GA,Clinch,1752,26
+GA,Cobb,73446,10
+GA,Coffee,9153,23
+GA,Colquitt,11252,25
 GA,Columbia,10512,7.2
 GA,Cook,4268,25.1
 GA,Coweta,13867,9.9
@@ -440,16 +440,16 @@ GA,Elbert,4197,22.3
 GA,Emanuel,5911,27.4
 GA,Evans,2500,24.4
 GA,Fannin,3485,14.1
-GA,Fayette,6671,6.0
+GA,Fayette,6671,6
 GA,Floyd,14596,15.8
 GA,Forsyth,12468,5.7
 GA,Franklin,4614,21.4
-GA,Fulton,159400,16.0
+GA,Fulton,159400,16
 GA,Gilmer,4490,15.2
 GA,Glascock,539,18.5
 GA,Glynn,15916,19.1
 GA,Gordon,9020,16.1
-GA,Grady,5169,21.0
+GA,Grady,5169,21
 GA,Greene,3067,18.2
 GA,Gwinnett,102033,11.3
 GA,Habersham,6500,15.6
@@ -500,7 +500,7 @@ GA,Pickens,3447,11.3
 GA,Pierce,3282,17.3
 GA,Pike,2074,11.7
 GA,Polk,7609,18.6
-GA,Pulaski,2505,25.0
+GA,Pulaski,2505,25
 GA,Putnam,3914,18.4
 GA,Quitman,632,27.1
 GA,Rabun,2794,17.1
@@ -540,7 +540,7 @@ GA,Webster,539,20.8
 GA,Wheeler,2111,39.1
 GA,White,4030,14.3
 GA,Whitfield,16688,16.1
-GA,Wilcox,2115,31.0
+GA,Wilcox,2115,31
 GA,Wilkes,2213,22.9
 GA,Wilkinson,1875,20.9
 GA,Worth,4334,21.1
@@ -550,16 +550,16 @@ HI,Kalawao,.,.
 HI,Kauai,5716,8.1
 HI,Maui,15578,9.5
 ID,Ada,46600,10.8
-ID,Adams,580,15.0
+ID,Adams,580,15
 ID,Bannock,13780,16.8
 ID,Bear Lake,823,13.9
-ID,Benewah,1624,18.0
+ID,Benewah,1624,18
 ID,Bingham,6181,13.8
 ID,Blaine,2128,9.8
 ID,Boise,965,13.6
 ID,Bonner,6476,15.4
 ID,Bonneville,13072,11.7
-ID,Boundary,1973,17.0
+ID,Boundary,1973,17
 ID,Butte,451,18.2
 ID,Camas,106,9.9
 ID,Canyon,31525,15.1
@@ -575,11 +575,11 @@ ID,Gem,3042,17.9
 ID,Gooding,2083,13.8
 ID,Idaho,2531,16.2
 ID,Jefferson,2875,10.4
-ID,Jerome,3644,16.0
+ID,Jerome,3644,16
 ID,Kootenai,22165,14.5
 ID,Latah,6326,17.6
 ID,Lemhi,1351,17.7
-ID,Lewis,611,16.0
+ID,Lewis,611,16
 ID,Lincoln,665,12.8
 ID,Madison,9274,24.1
 ID,Minidoka,3243,15.8
@@ -594,7 +594,7 @@ ID,Twin Falls,11954,14.5
 ID,Valley,998,9.6
 ID,Washington,1517,15.1
 IL,Adams,8223,12.8
-IL,Alexander,1857,29.0
+IL,Alexander,1857,29
 IL,Bond,2031,13.6
 IL,Boone,5071,9.6
 IL,Brown,774,16.7
@@ -604,17 +604,17 @@ IL,Carroll,1798,12.6
 IL,Cass,1708,13.7
 IL,Champaign,36364,18.9
 IL,Christian,4013,12.7
-IL,Clark,1884,12.0
-IL,Clay,2085,16.0
+IL,Clark,1884,12
+IL,Clay,2085,16
 IL,Clinton,3330,9.3
 IL,Coles,9348,19.3
-IL,Cook,770091,15.0
+IL,Cook,770091,15
 IL,Crawford,2571,14.4
 IL,Cumberland,1323,12.4
 IL,DeKalb,15566,15.8
 IL,De Witt,1686,10.6
 IL,Douglas,1895,9.8
-IL,DuPage,64330,7.0
+IL,DuPage,64330,7
 IL,Edgar,2350,13.6
 IL,Edwards,715,11.1
 IL,Effingham,3709,10.9
@@ -626,7 +626,7 @@ IL,Gallatin,1061,20.5
 IL,Greene,1928,15.1
 IL,Grundy,3936,7.9
 IL,Hamilton,1144,14.4
-IL,Hancock,2186,12.0
+IL,Hancock,2186,12
 IL,Hardin,857,21.9
 IL,Henderson,794,11.7
 IL,Henry,5556,11.5
@@ -660,9 +660,9 @@ IL,Massac,2972,20.6
 IL,Menard,1191,9.7
 IL,Mercer,1581,10.2
 IL,Monroe,1599,4.8
-IL,Montgomery,4220,16.0
+IL,Montgomery,4220,16
 IL,Morgan,4962,15.7
-IL,Moultrie,1444,10.0
+IL,Moultrie,1444,10
 IL,Ogle,5167,10.2
 IL,Peoria,27254,15.2
 IL,Perry,2953,15.6
@@ -670,7 +670,7 @@ IL,Piatt,1115,6.8
 IL,Pike,2506,16.4
 IL,Pope,720,18.2
 IL,Pulaski,1183,21.1
-IL,Putnam,448,8.0
+IL,Putnam,448,8
 IL,Randolph,3850,13.7
 IL,Richland,2235,14.4
 IL,Rock Island,21769,15.6
@@ -696,11 +696,11 @@ IL,Williamson,10423,15.9
 IL,Winnebago,43858,15.6
 IL,Woodford,2515,6.6
 IN,Adams,5271,15.2
-IN,Allen,54642,15.0
+IN,Allen,54642,15
 IN,Bartholomew,9336,11.7
 IN,Benton,980,11.5
 IN,Blackford,1530,12.8
-IN,Boone,4481,7.0
+IN,Boone,4481,7
 IN,Brown,1613,10.9
 IN,Carroll,2033,10.3
 IN,Cass,4648,12.5
@@ -711,7 +711,7 @@ IN,Crawford,1797,17.2
 IN,Daviess,4609,14.2
 IN,Dearborn,3988,8.2
 IN,Decatur,3021,11.5
-IN,De Kalb,3780,9.0
+IN,De Kalb,3780,9
 IN,Delaware,23202,21.6
 IN,Dubois,2730,6.6
 IN,Elkhart,26390,13.2
@@ -736,15 +736,15 @@ IN,Jay,2878,13.9
 IN,Jefferson,4061,13.4
 IN,Jennings,3478,12.7
 IN,Johnson,11300,7.6
-IN,Knox,5952,17.0
+IN,Knox,5952,17
 IN,Kosciusko,7985,10.4
-IN,Lagrange,3851,10.0
+IN,Lagrange,3851,10
 IN,Lake,79529,16.6
 IN,La Porte,16218,15.7
 IN,Lawrence,6139,13.7
 IN,Madison,21548,17.5
 IN,Marion,173996,18.9
-IN,Marshall,5490,12.0
+IN,Marshall,5490,12
 IN,Martin,1241,12.4
 IN,Miami,5100,15.7
 IN,Monroe,30977,23.8
@@ -783,10 +783,10 @@ IN,Wabash,3428,11.5
 IN,Warren,731,9.1
 IN,Warrick,4615,7.5
 IN,Washington,3898,14.3
-IN,Wayne,10859,17.0
+IN,Wayne,10859,17
 IN,Wells,2663,9.7
 IN,White,2571,10.9
-IN,Whitley,2954,9.0
+IN,Whitley,2954,9
 IA,Adair,740,10.7
 IA,Adams,452,12.3
 IA,Allamakee,1786,13.2
@@ -813,7 +813,7 @@ IA,Clinton,6272,13.5
 IA,Crawford,2345,14.1
 IA,Dallas,4118,4.9
 IA,Davis,1125,12.9
-IA,Decatur,1469,20.0
+IA,Decatur,1469,20
 IA,Delaware,1626,9.5
 IA,Des Moines,6300,16.1
 IA,Dickinson,1332,7.8
@@ -828,22 +828,22 @@ IA,Grundy,768,6.3
 IA,Guthrie,1036,9.9
 IA,Hamilton,1383,9.3
 IA,Hancock,947,8.8
-IA,Hardin,1807,11.0
+IA,Hardin,1807,11
 IA,Harrison,1518,10.9
 IA,Henry,2279,12.4
 IA,Howard,900,9.8
-IA,Humboldt,928,10.0
+IA,Humboldt,928,10
 IA,Ida,696,10.2
 IA,Iowa,1156,7.2
-IA,Jackson,2497,13.0
+IA,Jackson,2497,13
 IA,Jasper,3542,10.1
-IA,Jefferson,2311,14.0
-IA,Johnson,23460,17.0
+IA,Jefferson,2311,14
+IA,Johnson,23460,17
 IA,Jones,2012,10.5
-IA,Keokuk,1199,12.0
+IA,Keokuk,1199,12
 IA,Kossuth,1696,11.4
-IA,Lee,4643,14.0
-IA,Linn,21613,10.0
+IA,Lee,4643,14
+IA,Linn,21613,10
 IA,Louisa,1253,11.4
 IA,Lucas,1268,14.9
 IA,Lyon,840,7.3
@@ -865,11 +865,11 @@ IA,Plymouth,2091,8.4
 IA,Pocahontas,792,11.8
 IA,Polk,50628,10.9
 IA,Pottawattamie,9395,10.3
-IA,Poweshiek,1863,11.0
+IA,Poweshiek,1863,11
 IA,Ringgold,696,14.3
 IA,Sac,1124,11.6
 IA,Scott,22602,13.4
-IA,Shelby,1037,9.0
+IA,Shelby,1037,9
 IA,Sioux,2374,7.3
 IA,Story,16340,19.2
 IA,Tama,2063,12.1
@@ -889,7 +889,7 @@ IA,Wright,1578,12.6
 KS,Allen,1907,15.5
 KS,Anderson,992,12.9
 KS,Atchison,2398,15.8
-KS,Barber,559,12.0
+KS,Barber,559,12
 KS,Barton,3621,13.9
 KS,Bourbon,2465,17.4
 KS,Brown,1272,13.3
@@ -903,7 +903,7 @@ KS,Clay,819,10.3
 KS,Cloud,1142,13.2
 KS,Coffey,861,10.4
 KS,Comanche,208,11.7
-KS,Cowley,4706,14.0
+KS,Cowley,4706,14
 KS,Crawford,8318,22.3
 KS,Decatur,404,14.8
 KS,Dickinson,2084,11.1
@@ -919,7 +919,7 @@ KS,Franklin,2987,11.9
 KS,Geary,4031,11.6
 KS,Gove,264,10.4
 KS,Graham,311,12.3
-KS,Grant,909,12.0
+KS,Grant,909,12
 KS,Gray,487,8.2
 KS,Greeley,149,11.7
 KS,Greenwood,895,14.8
@@ -934,7 +934,7 @@ KS,Jewell,363,12.7
 KS,Johnson,32380,5.6
 KS,Kearny,444,11.6
 KS,Kingman,778,10.7
-KS,Kiowa,302,13.0
+KS,Kiowa,302,13
 KS,Labette,4161,20.8
 KS,Lane,164,10.1
 KS,Leavenworth,6464,8.8
@@ -968,9 +968,9 @@ KS,Republic,524,11.4
 KS,Rice,1167,12.8
 KS,Riley,11709,18.2
 KS,Rooks,592,11.9
-KS,Rush,360,12.0
+KS,Rush,360,12
 KS,Russell,1002,14.5
-KS,Saline,6426,12.0
+KS,Saline,6426,12
 KS,Scott,370,7.5
 KS,Sedgwick,75334,14.9
 KS,Seward,3017,13.6
@@ -980,10 +980,10 @@ KS,Sherman,841,14.4
 KS,Smith,507,14.2
 KS,Stafford,547,13.3
 KS,Stanton,220,10.9
-KS,Stevens,551,10.0
+KS,Stevens,551,10
 KS,Sumner,3091,13.5
 KS,Thomas,787,10.5
-KS,Trego,309,11.0
+KS,Trego,309,11
 KS,Wabaunsee,549,8.1
 KS,Wallace,179,12.1
 KS,Washington,588,10.8
@@ -1028,7 +1028,7 @@ KY,Fayette,54406,17.9
 KY,Fleming,3066,21.2
 KY,Floyd,11137,30.4
 KY,Franklin,6708,13.7
-KY,Fulton,1712,30.0
+KY,Fulton,1712,30
 KY,Gallatin,1238,14.5
 KY,Garrard,2784,16.3
 KY,Grant,3787,15.6
@@ -1055,7 +1055,7 @@ KY,Knox,12097,39.2
 KY,Larue,2312,16.9
 KY,Laurel,13782,23.2
 KY,Lawrence,4251,27.1
-KY,Lee,2487,39.0
+KY,Lee,2487,39
 KY,Leslie,3265,31.8
 KY,Letcher,7113,31.6
 KY,Lewis,3545,26.8
@@ -1094,7 +1094,7 @@ KY,Pulaski,11876,18.9
 KY,Robertson,514,24.6
 KY,Rockcastle,3991,24.2
 KY,Rowan,5389,25.4
-KY,Russell,4361,25.0
+KY,Russell,4361,25
 KY,Scott,5400,10.4
 KY,Shelby,5178,11.5
 KY,Simpson,2663,15.1
@@ -1111,75 +1111,75 @@ KY,Webster,2311,17.9
 KY,Whitley,10026,29.3
 KY,Wolfe,2252,32.2
 KY,Woodford,3099,12.1
-LA,Acadia Parish,14228,23.1
-LA,Allen Parish,4588,21.4
-LA,Ascension Parish,12864,10.7
-LA,Assumption Parish,4761,21.2
-LA,Avoyelles Parish,9758,25.9
-LA,Beauregard Parish,5243,14.8
-LA,Bienville Parish,3171,23.5
-LA,Bossier Parish,20555,16.7
-LA,Caddo Parish,63909,26.4
-LA,Calcasieu Parish,39035,19.9
-LA,Caldwell Parish,2144,22.6
-LA,Cameron Parish,841,12.3
-LA,Catahoula Parish,2485,27.5
-LA,Claiborne Parish,4593,34.9
-LA,Concordia Parish,5239,28.5
-LA,De Soto Parish,5669,21.1
-LA,East Baton Rouge Parish,86888,19.9
-LA,East Carroll Parish,2686,43.5
-LA,East Feliciana Parish,3459,20.0
-LA,Evangeline Parish,9463,29.4
-LA,Franklin Parish,5728,29.2
-LA,Grant Parish,4160,21.5
-LA,Iberia Parish,16885,23.4
-LA,Iberville Parish,6615,22.8
-LA,Jackson Parish,3122,21.2
-LA,Jefferson Parish,69610,16.1
-LA,Jefferson Davis Parish,5933,19.3
-LA,Lafayette Parish,42781,18.1
-LA,Lafourche Parish,16447,17.1
-LA,La Salle Parish,2653,19.3
-LA,Lincoln Parish,12959,30.2
-LA,Livingston Parish,17396,12.6
-LA,Madison Parish,4103,41.3
-LA,Morehouse Parish,7237,28.7
-LA,Natchitoches Parish,11773,31.9
-LA,Orleans Parish,91421,24.1
-LA,Ouachita Parish,37014,24.5
-LA,Plaquemines Parish,3575,15.4
-LA,Pointe Coupee Parish,4332,19.7
-LA,Rapides Parish,25575,19.9
-LA,Red River Parish,2194,26.3
-LA,Richland Parish,5299,27.2
-LA,Sabine Parish,4352,18.5
-LA,St. Bernard Parish,10604,23.5
-LA,St. Charles Parish,6812,13.1
-LA,St. Helena Parish,2558,24.7
-LA,St. James Parish,4038,19.0
-LA,St. John the Baptist Parish,7959,18.5
-LA,St. Landry Parish,21994,26.6
-LA,St. Martin Parish,9830,18.5
-LA,St. Mary Parish,11371,22.2
-LA,St. Tammany Parish,24598,9.8
-LA,Tangipahoa Parish,27350,21.5
-LA,Tensas Parish,1444,31.6
-LA,Terrebonne Parish,23521,21.1
-LA,Union Parish,4422,20.2
-LA,Vermilion Parish,11669,19.6
-LA,Vernon Parish,7191,14.9
-LA,Washington Parish,12371,27.8
-LA,Webster Parish,9276,24.1
-LA,West Baton Rouge Parish,4231,16.8
-LA,West Carroll Parish,2535,23.8
-LA,West Feliciana Parish,2372,23.7
-LA,Winn Parish,3080,24.3
+LA,Acadia  ,14228,23.1
+LA,Allen  ,4588,21.4
+LA,Ascension  ,12864,10.7
+LA,Assumption  ,4761,21.2
+LA,Avoyelles  ,9758,25.9
+LA,Beauregard  ,5243,14.8
+LA,Bienville  ,3171,23.5
+LA,Bossier  ,20555,16.7
+LA,Caddo  ,63909,26.4
+LA,Calcasieu  ,39035,19.9
+LA,Caldwell  ,2144,22.6
+LA,Cameron  ,841,12.3
+LA,Catahoula  ,2485,27.5
+LA,Claiborne  ,4593,34.9
+LA,Concordia  ,5239,28.5
+LA,De Soto  ,5669,21.1
+LA,East Baton Rouge  ,86888,19.9
+LA,East Carroll  ,2686,43.5
+LA,East Feliciana  ,3459,20
+LA,Evangeline  ,9463,29.4
+LA,Franklin  ,5728,29.2
+LA,Grant  ,4160,21.5
+LA,Iberia  ,16885,23.4
+LA,Iberville  ,6615,22.8
+LA,Jackson  ,3122,21.2
+LA,Jefferson  ,69610,16.1
+LA,Jefferson Davis  ,5933,19.3
+LA,Lafayette  ,42781,18.1
+LA,Lafourche  ,16447,17.1
+LA,La Salle  ,2653,19.3
+LA,Lincoln  ,12959,30.2
+LA,Livingston  ,17396,12.6
+LA,Madison  ,4103,41.3
+LA,Morehouse  ,7237,28.7
+LA,Natchitoches  ,11773,31.9
+LA,Orleans  ,91421,24.1
+LA,Ouachita  ,37014,24.5
+LA,Plaquemines  ,3575,15.4
+LA,Pointe Coupee  ,4332,19.7
+LA,Rapides  ,25575,19.9
+LA,Red River  ,2194,26.3
+LA,Richland  ,5299,27.2
+LA,Sabine  ,4352,18.5
+LA,St. Bernard  ,10604,23.5
+LA,St. Charles  ,6812,13.1
+LA,St. Helena  ,2558,24.7
+LA,St. James  ,4038,19
+LA,St. John the Baptist  ,7959,18.5
+LA,St. Landry  ,21994,26.6
+LA,St. Martin  ,9830,18.5
+LA,St. Mary  ,11371,22.2
+LA,St. Tammany  ,24598,9.8
+LA,Tangipahoa  ,27350,21.5
+LA,Tensas  ,1444,31.6
+LA,Terrebonne  ,23521,21.1
+LA,Union  ,4422,20.2
+LA,Vermilion  ,11669,19.6
+LA,Vernon  ,7191,14.9
+LA,Washington  ,12371,27.8
+LA,Webster  ,9276,24.1
+LA,West Baton Rouge  ,4231,16.8
+LA,West Carroll  ,2535,23.8
+LA,West Feliciana  ,2372,23.7
+LA,Winn  ,3080,24.3
 ME,Androscoggin,13210,12.7
 ME,Aroostook,10804,16.3
-ME,Cumberland,28431,10.0
+ME,Cumberland,28431,10
 ME,Franklin,4111,14.3
-ME,Hancock,5877,11.0
+ME,Hancock,5877,11
 ME,Kennebec,16479,14.1
 ME,Knox,4376,11.4
 ME,Lincoln,3818,11.3
@@ -1192,19 +1192,19 @@ ME,Waldo,5514,14.3
 ME,Washington,5615,18.4
 ME,York,16132,8.1
 MD,Allegany,11090,17.2
-MD,Anne Arundel,38816,7.0
-MD,Baltimore,72978,9.0
+MD,Anne Arundel,38816,7
+MD,Baltimore,72978,9
 MD,Calvert,5282,5.8
 MD,Caroline,4955,15.3
 MD,Carroll,8990,5.5
-MD,Cecil,10099,10.0
+MD,Cecil,10099,10
 MD,Charles,11536,7.4
 MD,Dorchester,5531,17.4
 MD,Frederick,16793,6.9
 MD,Garrett,3692,12.8
 MD,Harford,17769,7.2
 MD,Howard,16536,5.2
-MD,Kent,2565,14.0
+MD,Kent,2565,14
 MD,Montgomery,71252,6.9
 MD,Prince George's,81629,9.2
 MD,Queen Anne's,3528,7.3
@@ -1212,7 +1212,7 @@ MD,St. Mary's,9977,9.1
 MD,Somerset,4992,24.3
 MD,Talbot,3827,10.4
 MD,Washington,18771,13.2
-MD,Wicomico,17634,18.0
+MD,Wicomico,17634,18
 MD,Worcester,5792,11.4
 MD,Baltimore city,128752,21.8
 MA,Barnstable,15972,7.6
@@ -1220,18 +1220,18 @@ MA,Berkshire,13182,10.9
 MA,Bristol,58070,10.7
 MA,Dukes,1302,7.6
 MA,Essex,81646,10.7
-MA,Franklin,6926,10.0
+MA,Franklin,6926,10
 MA,Hampden,74898,16.5
 MA,Hampshire,16535,11.9
 MA,Middlesex,117964,7.7
 MA,Nantucket,697,6.4
 MA,Norfolk,41497,6.1
-MA,Plymouth,39977,8.0
+MA,Plymouth,39977,8
 MA,Suffolk,143799,19.5
 MA,Worcester,75902,9.6
 MI,Alcona,1657,16.2
 MI,Alger,1140,13.9
-MI,Allegan,10303,9.0
+MI,Allegan,10303,9
 MI,Alpena,4365,15.5
 MI,Antrim,2686,11.7
 MI,Arenac,2456,16.5
@@ -1244,8 +1244,8 @@ MI,Branch,6969,16.8
 MI,Calhoun,21973,16.8
 MI,Cass,6579,12.9
 MI,Charlevoix,2981,11.5
-MI,Cheboygan,4486,18.0
-MI,Chippewa,5278,16.0
+MI,Cheboygan,4486,18
+MI,Chippewa,5278,16
 MI,Clare,6496,21.7
 MI,Clinton,6509,8.4
 MI,Crawford,2892,21.4
@@ -1254,9 +1254,9 @@ MI,Dickinson,3195,12.8
 MI,Eaton,12005,11.2
 MI,Emmet,3841,11.8
 MI,Genesee,81761,20.3
-MI,Gladwin,4459,18.0
+MI,Gladwin,4459,18
 MI,Gogebic,2809,20.4
-MI,Grand Traverse,8985,10.0
+MI,Grand Traverse,8985,10
 MI,Gratiot,6742,18.8
 MI,Hillsdale,6395,14.5
 MI,Houghton,6762,20.2
@@ -1278,27 +1278,27 @@ MI,Lenawee,11641,12.5
 MI,Livingston,10912,5.8
 MI,Luce,1092,20.9
 MI,Mackinac,1465,13.7
-MI,Macomb,94224,11.0
+MI,Macomb,94224,11
 MI,Manistee,3255,14.2
 MI,Marquette,9419,15.1
 MI,Mason,4355,15.3
 MI,Mecosta,8248,20.7
-MI,Menominee,2965,13.0
+MI,Menominee,2965,13
 MI,Midland,7771,9.5
 MI,Missaukee,2198,14.7
-MI,Monroe,14819,10.0
+MI,Monroe,14819,10
 MI,Montcalm,9381,15.6
-MI,Montmorency,1535,17.0
+MI,Montmorency,1535,17
 MI,Muskegon,31393,18.8
 MI,Newaygo,8101,17.2
 MI,Oakland,106650,8.7
-MI,Oceana,4630,18.0
+MI,Oceana,4630,18
 MI,Ogemaw,3564,17.3
 MI,Ontonagon,925,15.8
 MI,Osceola,4325,19.1
 MI,Oscoda,1522,18.6
-MI,Otsego,3369,14.0
-MI,Ottawa,24520,9.0
+MI,Otsego,3369,14
+MI,Ottawa,24520,9
 MI,Presque Isle,1852,14.7
 MI,Roscommon,4129,17.7
 MI,Saginaw,33068,17.8
@@ -1306,7 +1306,7 @@ MI,St. Clair,21781,13.8
 MI,St. Joseph,8948,14.9
 MI,Sanilac,6359,15.5
 MI,Schoolcraft,1162,14.8
-MI,Shiawassee,8106,12.0
+MI,Shiawassee,8106,12
 MI,Tuscola,7148,13.6
 MI,Van Buren,12282,16.5
 MI,Washtenaw,49933,14.6
@@ -1318,26 +1318,26 @@ MN,Becker,4200,12.7
 MN,Beltrami,8070,18.3
 MN,Benton,3345,8.5
 MN,Big Stone,584,11.9
-MN,Blue Earth,9397,15.0
+MN,Blue Earth,9397,15
 MN,Brown,1993,8.2
 MN,Carlton,3469,10.2
 MN,Carver,4225,4.3
 MN,Cass,4445,15.5
 MN,Chippewa,1066,8.9
 MN,Chisago,3554,6.7
-MN,Clay,7167,12.0
+MN,Clay,7167,12
 MN,Clearwater,1432,16.5
 MN,Cook,526,10.1
-MN,Cottonwood,1346,12.0
-MN,Crow Wing,6975,11.0
+MN,Cottonwood,1346,12
+MN,Crow Wing,6975,11
 MN,Dakota,23278,5.6
 MN,Dodge,1560,7.7
 MN,Douglas,3172,8.6
 MN,Faribault,1584,11.7
 MN,Fillmore,2535,12.3
-MN,Freeborn,3267,11.0
+MN,Freeborn,3267,11
 MN,Goodhue,3513,7.7
-MN,Grant,700,12.0
+MN,Grant,700,12
 MN,Hennepin,132137,10.9
 MN,Houston,1585,8.5
 MN,Hubbard,2677,13.1
@@ -1346,7 +1346,7 @@ MN,Itasca,5898,13.3
 MN,Jackson,858,8.7
 MN,Kanabec,2064,13.2
 MN,Kandiyohi,4815,11.5
-MN,Kittson,466,11.0
+MN,Kittson,466,11
 MN,Koochiching,1773,14.3
 MN,Lac qui Parle,635,9.7
 MN,Lake,946,9.1
@@ -1363,7 +1363,7 @@ MN,Mille Lacs,3047,12.1
 MN,Morrison,3871,11.9
 MN,Mower,5104,13.2
 MN,Murray,757,9.3
-MN,Nicollet,2490,8.0
+MN,Nicollet,2490,8
 MN,Nobles,2500,11.6
 MN,Norman,777,12.1
 MN,Olmsted,13027,8.6
@@ -1401,7 +1401,7 @@ MN,Wright,6912,5.3
 MN,Yellow Medicine,963,9.9
 MS,Adams,9045,31.4
 MS,Alcorn,6175,16.9
-MS,Amite,2951,24.0
+MS,Amite,2951,24
 MS,Attala,4428,23.8
 MS,Benton,2064,25.3
 MS,Bolivar,10927,35.3
@@ -1439,13 +1439,13 @@ MS,Lamar,7614,12.6
 MS,Lauderdale,17531,23.7
 MS,Lawrence,2502,19.7
 MS,Leake,5218,24.9
-MS,Lee,14332,17.0
+MS,Lee,14332,17
 MS,Leflore,10146,35.6
-MS,Lincoln,6763,20.0
+MS,Lincoln,6763,20
 MS,Lowndes,12346,21.2
-MS,Madison,12426,12.0
-MS,Marion,6614,27.0
-MS,Marshall,7772,23.0
+MS,Madison,12426,12
+MS,Marion,6614,27
+MS,Marshall,7772,23
 MS,Monroe,6869,19.4
 MS,Montgomery,2433,24.2
 MS,Neshoba,6517,22.5
@@ -1461,7 +1461,7 @@ MS,Prentiss,5868,24.2
 MS,Quitman,2468,34.3
 MS,Rankin,13745,9.5
 MS,Scott,6303,22.6
-MS,Sharkey,1567,35.0
+MS,Sharkey,1567,35
 MS,Simpson,6095,23.1
 MS,Smith,2990,18.9
 MS,Stone,3367,20.3
@@ -1478,13 +1478,13 @@ MS,Washington,15883,34.2
 MS,Wayne,5145,25.3
 MS,Webster,2002,20.7
 MS,Wilkinson,2798,35.1
-MS,Winston,4070,23.0
+MS,Winston,4070,23
 MS,Yalobusha,2812,22.9
 MS,Yazoo,8053,34.8
 MO,Adair,5343,23.8
 MO,Andrew,1657,9.7
 MO,Atchison,665,12.8
-MO,Audrain,4019,17.0
+MO,Audrain,4019,17
 MO,Barry,7560,21.4
 MO,Barton,1899,16.1
 MO,Bates,2204,13.8
@@ -1492,7 +1492,7 @@ MO,Benton,3330,17.9
 MO,Bollinger,2076,17.4
 MO,Boone,27774,16.6
 MO,Buchanan,14999,17.8
-MO,Butler,9237,22.0
+MO,Butler,9237,22
 MO,Caldwell,1121,12.7
 MO,Callaway,4754,11.6
 MO,Camden,7385,16.8
@@ -1542,7 +1542,7 @@ MO,Linn,1927,16.1
 MO,Livingston,2350,17.6
 MO,McDonald,4776,21.4
 MO,Macon,2416,16.3
-MO,Madison,2193,18.0
+MO,Madison,2193,18
 MO,Maries,1331,15.2
 MO,Marion,4000,14.5
 MO,Mercer,498,13.6
@@ -1552,9 +1552,9 @@ MO,Moniteau,1696,11.6
 MO,Monroe,1298,15.4
 MO,Montgomery,1739,15.6
 MO,Morgan,3885,19.6
-MO,New Madrid,4381,25.0
+MO,New Madrid,4381,25
 MO,Newton,8251,14.3
-MO,Nodaway,3251,17.0
+MO,Nodaway,3251,17
 MO,Oregon,2640,24.9
 MO,Osage,1139,8.6
 MO,Ozark,2315,25.3
@@ -1562,14 +1562,14 @@ MO,Pemiscot,5198,30.9
 MO,Perry,1941,10.3
 MO,Pettis,6263,15.2
 MO,Phelps,8126,19.6
-MO,Pike,2907,18.0
+MO,Pike,2907,18
 MO,Platte,5915,6.1
 MO,Polk,5004,16.8
 MO,Pulaski,6044,14.2
 MO,Putnam,837,17.5
 MO,Ralls,1109,10.9
 MO,Randolph,3616,16.1
-MO,Ray,2453,11.0
+MO,Ray,2453,11
 MO,Reynolds,1397,22.1
 MO,Ripley,3776,27.7
 MO,St. Charles,20198,5.2
@@ -1585,13 +1585,13 @@ MO,Shannon,2133,26.4
 MO,Shelby,977,16.6
 MO,Stoddard,5545,19.1
 MO,Stone,3960,12.9
-MO,Sullivan,1049,17.0
-MO,Taney,9006,17.0
+MO,Sullivan,1049,17
+MO,Taney,9006,17
 MO,Texas,7130,29.9
 MO,Vernon,3498,17.5
 MO,Warren,3935,11.8
-MO,Washington,5186,22.0
-MO,Wayne,3370,26.0
+MO,Washington,5186,22
+MO,Wayne,3370,26
 MO,Webster,6189,16.7
 MO,Worth,279,14.2
 MO,Wright,4355,24.2
@@ -1649,7 +1649,7 @@ MT,Teton,824,14.1
 MT,Toole,712,16.8
 MT,Treasure,71,10.3
 MT,Valley,928,12.5
-MT,Wheatland,390,19.0
+MT,Wheatland,390,19
 MT,Wibaux,116,10.9
 MT,Yellowstone,13581,8.8
 NE,Adams,3835,12.7
@@ -1673,7 +1673,7 @@ NE,Clay,681,11.3
 NE,Colfax,1005,9.8
 NE,Cuming,772,8.7
 NE,Custer,1236,11.6
-NE,Dakota,2405,12.0
+NE,Dakota,2405,12
 NE,Dawes,1366,16.9
 NE,Dawson,2966,12.7
 NE,Deuel,213,11.5
@@ -1684,12 +1684,12 @@ NE,Dundy,223,12.4
 NE,Fillmore,540,9.8
 NE,Franklin,393,13.3
 NE,Frontier,312,12.5
-NE,Furnas,656,14.0
+NE,Furnas,656,14
 NE,Gage,2430,11.3
 NE,Garden,308,16.3
 NE,Garfield,249,12.8
 NE,Gosper,189,9.8
-NE,Grant,64,10.0
+NE,Grant,64,10
 NE,Greeley,333,14.3
 NE,Hall,7652,12.7
 NE,Hamilton,697,7.7
@@ -1704,12 +1704,12 @@ NE,Johnson,520,12.6
 NE,Kearney,584,9.1
 NE,Keith,1019,12.8
 NE,Keya Paha,127,16.1
-NE,Kimball,468,13.0
+NE,Kimball,468,13
 NE,Knox,1076,12.9
 NE,Lancaster,35993,12.2
 NE,Lincoln,3272,9.4
 NE,Logan,79,10.3
-NE,Loup,94,16.0
+NE,Loup,94,16
 NE,McPherson,60,12.2
 NE,Madison,4867,14.3
 NE,Merrick,797,10.4
@@ -1722,8 +1722,8 @@ NE,Pawnee,400,15.4
 NE,Perkins,301,10.6
 NE,Phelps,827,9.2
 NE,Pierce,674,9.6
-NE,Platte,2920,9.0
-NE,Polk,408,8.0
+NE,Platte,2920,9
+NE,Polk,408,8
 NE,Red Willow,1100,10.7
 NE,Richardson,973,12.4
 NE,Rock,186,13.8
@@ -1740,8 +1740,8 @@ NE,Thayer,551,11.2
 NE,Thomas,99,13.9
 NE,Thurston,1777,25.3
 NE,Valley,479,11.6
-NE,Washington,1405,7.0
-NE,Wayne,997,12.0
+NE,Washington,1405,7
+NE,Wayne,997,12
 NE,Webster,447,12.9
 NE,Wheeler,88,11.4
 NE,York,1357,10.5
@@ -1761,13 +1761,13 @@ NV,Pershing,847,17.5
 NV,Storey,316,7.8
 NV,Washoe,56064,12.5
 NV,White Pine,1220,14.7
-NV,Carson City,6727,13.0
-NH,Belknap,5949,10.0
+NV,Carson City,6727,13
+NH,Belknap,5949,10
 NH,Carroll,4896,10.5
 NH,Cheshire,6078,8.6
 NH,Coos,4072,13.8
 NH,Grafton,8463,10.3
-NH,Hillsborough,31972,8.0
+NH,Hillsborough,31972,8
 NH,Merrimack,10532,7.4
 NH,Rockingham,12681,4.2
 NH,Strafford,9094,7.7
@@ -1775,7 +1775,7 @@ NH,Sullivan,4016,9.5
 NJ,Atlantic,37734,14.2
 NJ,Bergen,63789,6.9
 NJ,Burlington,27083,6.2
-NJ,Camden,60385,12.0
+NJ,Camden,60385,12
 NJ,Cape May,10964,11.9
 NJ,Cumberland,26321,18.4
 NJ,Essex,126492,16.3
@@ -1786,16 +1786,16 @@ NJ,Mercer,39066,11.1
 NJ,Middlesex,69642,8.6
 NJ,Monmouth,43866,7.1
 NJ,Morris,26615,5.4
-NJ,Ocean,64493,11.0
+NJ,Ocean,64493,11
 NJ,Passaic,85671,17.2
 NJ,Salem,7868,12.6
 NJ,Somerset,17318,5.2
-NJ,Sussex,8460,6.0
+NJ,Sussex,8460,6
 NJ,Union,58425,10.6
 NJ,Warren,8708,8.3
 NM,Bernalillo,107909,16.2
 NM,Catron,810,23.2
-NM,Chaves,13974,22.0
+NM,Chaves,13974,22
 NM,Cibola,6712,26.9
 NM,Colfax,2525,21.4
 NM,Curry,9216,18.9
@@ -1806,9 +1806,9 @@ NM,Grant,6308,22.8
 NM,Guadalupe,955,25.1
 NM,Harding,95,14.3
 NM,Hidalgo,1129,26.7
-NM,Lea,12179,18.0
+NM,Lea,12179,18
 NM,Lincoln,3500,18.2
-NM,Los Alamos,720,4.0
+NM,Los Alamos,720,4
 NM,Luna,6601,27.6
 NM,McKinley,25540,34.4
 NM,Mora,1130,25.2
@@ -1819,8 +1819,8 @@ NM,Roosevelt,4006,22.3
 NM,Sandoval,20441,14.5
 NM,San Juan,19749,17.4
 NM,San Miguel,6856,25.7
-NM,Santa Fe,20463,14.0
-NM,Sierra,2940,27.0
+NM,Santa Fe,20463,14
+NM,Sierra,2940,27
 NM,Socorro,4181,25.4
 NM,Taos,7354,22.4
 NM,Torrance,4001,27.3
@@ -1843,7 +1843,7 @@ NY,Dutchess,25588,9.2
 NY,Erie,126912,14.2
 NY,Essex,4532,12.6
 NY,Franklin,8235,18.4
-NY,Fulton,7878,15.0
+NY,Fulton,7878,15
 NY,Genesee,6475,11.4
 NY,Greene,7278,16.4
 NY,Hamilton,463,10.2
@@ -1865,7 +1865,7 @@ NY,Orange,46624,12.6
 NY,Orleans,5905,15.2
 NY,Oswego,19549,17.2
 NY,Otsego,8124,14.7
-NY,Putnam,5844,6.0
+NY,Putnam,5844,6
 NY,Queens,307866,13.3
 NY,Rensselaer,17978,11.6
 NY,Richmond,62030,13.2
@@ -1874,7 +1874,7 @@ NY,St. Lawrence,17225,17.5
 NY,Saratoga,14094,6.3
 NY,Schenectady,17158,11.4
 NY,Schoharie,3802,12.7
-NY,Schuyler,2684,15.0
+NY,Schuyler,2684,15
 NY,Seneca,4322,13.5
 NY,Steuben,12546,13.2
 NY,Suffolk,111341,7.6
@@ -1885,22 +1885,22 @@ NY,Ulster,23815,13.9
 NY,Warren,7479,11.7
 NY,Washington,6479,11.1
 NY,Wayne,9296,10.4
-NY,Westchester,95327,10.0
-NY,Wyoming,3701,10.0
+NY,Westchester,95327,10
+NY,Wyoming,3701,10
 NY,Yates,3340,14.1
 NC,Alamance,25014,16.1
-NC,Alexander,5401,15.0
+NC,Alexander,5401,15
 NC,Alleghany,2203,20.6
 NC,Anson,5716,25.1
 NC,Ashe,4307,16.1
 NC,Avery,2985,19.7
-NC,Beaufort,8925,19.0
+NC,Beaufort,8925,19
 NC,Bertie,4438,24.4
 NC,Bladen,8794,26.4
 NC,Brunswick,17406,13.8
 NC,Buncombe,33631,13.5
 NC,Burke,15310,17.7
-NC,Cabarrus,21980,11.0
+NC,Cabarrus,21980,11
 NC,Caldwell,13697,17.1
 NC,Camden,902,8.7
 NC,Carteret,8321,12.3
@@ -1929,7 +1929,7 @@ NC,Graham,1675,19.9
 NC,Granville,8403,15.2
 NC,Greene,4422,23.7
 NC,Guilford,92205,18.3
-NC,Halifax,13595,27.0
+NC,Halifax,13595,27
 NC,Harnett,20400,16.1
 NC,Haywood,9545,15.9
 NC,Henderson,13707,12.2
@@ -1957,8 +1957,8 @@ NC,Northampton,4319,22.4
 NC,Onslow,23670,13.7
 NC,Orange,17049,12.8
 NC,Pamlico,2230,18.5
-NC,Pasquotank,6395,17.0
-NC,Pender,8683,15.0
+NC,Pasquotank,6395,17
+NC,Pender,8683,15
 NC,Perquimans,2239,16.9
 NC,Person,5962,15.4
 NC,Pitt,36594,21.5
@@ -1973,11 +1973,11 @@ NC,Sampson,12114,19.6
 NC,Scotland,9033,27.6
 NC,Stanly,7733,13.1
 NC,Stokes,5664,12.4
-NC,Surry,12102,17.0
+NC,Surry,12102,17
 NC,Swain,2357,16.7
 NC,Transylvania,5415,16.6
 NC,Tyrrell,966,27.3
-NC,Union,20266,9.0
+NC,Union,20266,9
 NC,Vance,10552,24.2
 NC,Wake,94001,9.2
 NC,Warren,4999,26.4
@@ -1986,7 +1986,7 @@ NC,Watauga,11717,24.3
 NC,Wayne,24889,20.6
 NC,Wilkes,11378,16.8
 NC,Wilson,17798,22.3
-NC,Yadkin,5202,14.0
+NC,Yadkin,5202,14
 NC,Yancey,3350,19.1
 ND,Adams,216,9.6
 ND,Barnes,1137,10.9
@@ -1994,12 +1994,12 @@ ND,Benson,1961,29.4
 ND,Billings,83,8.9
 ND,Bottineau,701,11.1
 ND,Bowman,262,8.2
-ND,Burke,196,9.0
+ND,Burke,196,9
 ND,Burleigh,6505,7.2
 ND,Cass,18151,10.7
 ND,Cavalier,364,9.7
 ND,Dickey,527,10.9
-ND,Divide,231,10.0
+ND,Divide,231,10
 ND,Dunn,420,9.8
 ND,Eddy,229,10.1
 ND,Emmons,455,13.9
@@ -2022,7 +2022,7 @@ ND,Mountrail,964,9.5
 ND,Nelson,333,11.6
 ND,Oliver,191,10.3
 ND,Pembina,629,9.1
-ND,Pierce,522,13.0
+ND,Pierce,522,13
 ND,Ramsey,1556,14.1
 ND,Ransom,421,8.1
 ND,Renville,205,8.2
@@ -2032,12 +2032,12 @@ ND,Sargent,296,7.7
 ND,Sheridan,222,16.9
 ND,Sioux,1543,35.3
 ND,Slope,86,11.3
-ND,Stark,2433,8.0
+ND,Stark,2433,8
 ND,Steele,162,8.3
 ND,Stutsman,2184,11.2
 ND,Towner,238,10.7
 ND,Traill,642,8.4
-ND,Walsh,1176,11.0
+ND,Walsh,1176,11
 ND,Ward,5903,8.8
 ND,Wells,419,10.5
 ND,Williams,2292,6.8
@@ -2064,15 +2064,15 @@ OH,Defiance,3876,10.4
 OH,Delaware,9083,4.7
 OH,Erie,9171,12.5
 OH,Fairfield,14445,9.7
-OH,Fayette,4489,16.0
+OH,Fayette,4489,16
 OH,Franklin,205476,16.6
 OH,Fulton,3719,8.9
 OH,Gallia,5995,20.6
 OH,Geauga,5451,5.8
 OH,Greene,18975,12.1
 OH,Guernsey,7161,18.6
-OH,Hamilton,126002,16.0
-OH,Hancock,7385,10.0
+OH,Hamilton,126002,16
+OH,Hancock,7385,10
 OH,Hardin,3906,13.3
 OH,Harrison,2521,16.8
 OH,Henry,2258,8.3
@@ -2104,11 +2104,11 @@ OH,Muskingum,12435,14.8
 OH,Noble,1744,15.1
 OH,Ottawa,4160,10.4
 OH,Paulding,2004,10.7
-OH,Perry,6029,17.0
+OH,Perry,6029,17
 OH,Pickaway,6905,13.2
 OH,Pike,5660,20.5
 OH,Portage,20743,13.5
-OH,Preble,4494,11.0
+OH,Preble,4494,11
 OH,Putnam,2796,8.3
 OH,Richland,17904,15.8
 OH,Ross,13224,18.6
@@ -2129,7 +2129,7 @@ OH,Wayne,13372,11.9
 OH,Williams,3496,9.7
 OH,Wood,14060,11.4
 OH,Wyandot,1881,8.6
-OK,Adair,6347,29.0
+OK,Adair,6347,29
 OK,Alfalfa,750,15.8
 OK,Atoka,2596,19.9
 OK,Beaver,614,11.6
@@ -2148,10 +2148,10 @@ OK,Comanche,18024,16.2
 OK,Cotton,994,16.9
 OK,Craig,2423,17.5
 OK,Creek,10895,15.5
-OK,Custer,4984,18.0
+OK,Custer,4984,18
 OK,Delaware,7294,17.7
 OK,Dewey,623,13.2
-OK,Ellis,523,13.0
+OK,Ellis,523,13
 OK,Garfield,8920,14.6
 OK,Garvin,4791,17.5
 OK,Grady,7032,13.2
@@ -2167,7 +2167,7 @@ OK,Johnston,2355,21.9
 OK,Kay,7252,16.6
 OK,Kingfisher,1605,10.4
 OK,Kiowa,1981,22.3
-OK,Latimer,2062,21.0
+OK,Latimer,2062,21
 OK,Le Flore,10398,21.6
 OK,Lincoln,5477,15.8
 OK,Logan,6510,14.5
@@ -2191,9 +2191,9 @@ OK,Pawnee,2696,16.6
 OK,Payne,18413,25.1
 OK,Pittsburg,6007,14.4
 OK,Pontotoc,5983,16.3
-OK,Pottawatomie,12400,18.0
-OK,Pushmataha,2402,22.0
-OK,Roger Mills,469,13.0
+OK,Pottawatomie,12400,18
+OK,Pushmataha,2402,22
+OK,Roger Mills,469,13
 OK,Rogers,8185,9.1
 OK,Seminole,5562,22.6
 OK,Sequoyah,7978,19.6
@@ -2203,27 +2203,27 @@ OK,Tillman,1689,23.6
 OK,Tulsa,99417,15.7
 OK,Wagoner,8725,11.3
 OK,Washington,7333,14.3
-OK,Washita,1784,16.0
+OK,Washita,1784,16
 OK,Woods,1105,13.5
 OK,Woodward,2451,12.5
 OR,Baker,2762,17.6
 OR,Benton,15546,18.4
 OR,Clackamas,35366,8.7
 OR,Clatsop,4919,12.9
-OR,Columbia,5537,11.0
+OR,Columbia,5537,11
 OR,Coos,10946,17.5
 OR,Crook,3192,14.2
 OR,Curry,3171,14.1
 OR,Deschutes,19113,10.6
 OR,Douglas,16692,15.6
 OR,Gilliam,223,12.2
-OR,Grant,1132,16.0
+OR,Grant,1132,16
 OR,Harney,1171,16.4
 OR,Hood River,2459,10.7
 OR,Jackson,31189,14.6
 OR,Jefferson,3838,17.3
-OR,Josephine,15239,18.0
-OR,Klamath,12408,19.0
+OR,Josephine,15239,18
+OR,Klamath,12408,19
 OR,Lake,1122,15.2
 OR,Lane,66339,18.3
 OR,Lincoln,9289,19.6
@@ -2236,10 +2236,10 @@ OR,Polk,9681,12.1
 OR,Sherman,208,12.2
 OR,Tillamook,3300,12.9
 OR,Umatilla,11369,15.7
-OR,Union,4058,16.0
+OR,Union,4058,16
 OR,Wallowa,1000,14.6
 OR,Wasco,3624,14.2
-OR,Washington,51702,9.0
+OR,Washington,51702,9
 OR,Wheeler,258,19.6
 OR,Yamhill,11607,11.7
 PA,Adams,9218,9.4
@@ -2255,8 +2255,8 @@ PA,Butler,13334,7.3
 PA,Cambria,20033,15.6
 PA,Cameron,655,14.2
 PA,Carbon,8210,13.1
-PA,Centre,24173,17.0
-PA,Chester,35349,7.0
+PA,Centre,24173,17
+PA,Chester,35349,7
 PA,Clarion,5628,15.2
 PA,Clearfield,10543,14.1
 PA,Clinton,6543,17.8
@@ -2273,7 +2273,7 @@ PA,Franklin,13779,9.1
 PA,Fulton,1527,10.6
 PA,Greene,5362,15.7
 PA,Huntingdon,5522,13.6
-PA,Indiana,16198,20.0
+PA,Indiana,16198,20
 PA,Jefferson,5743,13.3
 PA,Juniata,2490,10.2
 PA,Lackawanna,28739,14.1
@@ -2286,7 +2286,7 @@ PA,Lycoming,16033,14.6
 PA,Mc Kean,6711,17.4
 PA,Mercer,17133,16.1
 PA,Mifflin,6711,14.7
-PA,Monroe,19303,12.0
+PA,Monroe,19303,12
 PA,Montgomery,49697,6.2
 PA,Montour,1966,11.2
 PA,Northampton,27078,9.3
@@ -2294,7 +2294,7 @@ PA,Northumberland,12924,14.6
 PA,Perry,4082,9.1
 PA,Philadelphia,384148,25.3
 PA,Pike,5397,9.8
-PA,Potter,2335,14.0
+PA,Potter,2335,14
 PA,Schuylkill,17479,12.8
 PA,Snyder,4775,12.7
 PA,Somerset,9885,14.1
@@ -2311,11 +2311,11 @@ PA,Wyoming,3021,11.3
 PA,York,42508,9.8
 RI,Bristol,3833,8.2
 RI,Kent,15726,9.6
-RI,Newport,7120,9.0
+RI,Newport,7120,9
 RI,Providence,96214,15.8
 RI,Washington,11789,9.8
 SC,Abbeville,3689,15.3
-SC,Aiken,28039,17.0
+SC,Aiken,28039,17
 SC,Allendale,3013,38.2
 SC,Anderson,29703,15.4
 SC,Bamberg,3885,28.4
@@ -2323,7 +2323,7 @@ SC,Barnwell,4789,22.6
 SC,Beaufort,18326,10.3
 SC,Berkeley,25313,12.3
 SC,Calhoun,2370,16.2
-SC,Charleston,57691,15.0
+SC,Charleston,57691,15
 SC,Cherokee,10318,18.6
 SC,Chester,6328,19.8
 SC,Chesterfield,9310,20.5
@@ -2339,10 +2339,10 @@ SC,Georgetown,9222,15.2
 SC,Greenville,53113,10.9
 SC,Greenwood,14687,21.7
 SC,Hampton,4104,22.3
-SC,Horry,47767,15.0
+SC,Horry,47767,15
 SC,Jasper,5570,20.7
 SC,Kershaw,9941,15.6
-SC,Lancaster,11381,13.0
+SC,Lancaster,11381,13
 SC,Laurens,11753,18.2
 SC,Lee,4443,27.7
 SC,Lexington,33254,11.7
@@ -2361,10 +2361,10 @@ SC,Union,5756,21.2
 SC,Williamsburg,9141,29.8
 SC,York,27264,10.7
 SD,Aurora,275,10.4
-SD,Beadle,2484,14.0
+SD,Beadle,2484,14
 SD,Bennett,1159,33.8
 SD,Bon Homme,811,14.6
-SD,Brookings,4307,14.0
+SD,Brookings,4307,14
 SD,Brown,4025,10.6
 SD,Brule,652,12.7
 SD,Buffalo,804,39.5
@@ -2372,15 +2372,15 @@ SD,Butte,1399,13.9
 SD,Campbell,131,9.6
 SD,Charles Mix,1951,21.7
 SD,Clark,398,11.6
-SD,Clay,2393,20.0
+SD,Clay,2393,20
 SD,Codington,3264,11.8
 SD,Corson,1614,39.1
 SD,Custer,882,10.6
 SD,Davison,2069,10.8
-SD,Day,759,14.0
+SD,Day,759,14
 SD,Deuel,411,9.8
 SD,Dewey,1571,27.5
-SD,Douglas,309,11.0
+SD,Douglas,309,11
 SD,Edmunds,377,10.1
 SD,Fall River,862,12.9
 SD,Faulk,298,13.8
@@ -2388,7 +2388,7 @@ SD,Grant,705,9.9
 SD,Gregory,655,15.9
 SD,Haakon,209,11.2
 SD,Hamlin,557,9.5
-SD,Hand,295,9.0
+SD,Hand,295,9
 SD,Hanson,282,8.8
 SD,Harding,143,11.4
 SD,Hughes,1430,8.5
@@ -2396,17 +2396,17 @@ SD,Hutchinson,872,12.7
 SD,Hyde,122,9.3
 SD,Jackson,1011,30.7
 SD,Jerauld,240,12.6
-SD,Jones,120,13.0
+SD,Jones,120,13
 SD,Kingsbury,457,9.4
 SD,Lake,1049,8.6
 SD,Lawrence,2907,11.9
 SD,Lincoln,2007,3.7
 SD,Lyman,860,22.3
-SD,McCook,545,10.0
+SD,McCook,545,10
 SD,McPherson,340,15.1
-SD,Marshall,508,11.0
+SD,Marshall,508,11
 SD,Meade,2666,9.9
-SD,Mellette,676,33.0
+SD,Mellette,676,33
 SD,Miner,272,12.2
 SD,Minnehaha,18046,9.9
 SD,Moody,676,10.5
@@ -2416,7 +2416,7 @@ SD,Perkins,374,12.7
 SD,Potter,219,9.8
 SD,Roberts,1801,17.9
 SD,Sanborn,268,11.7
-SD,Spink,676,11.0
+SD,Spink,676,11
 SD,Stanley,237,7.9
 SD,Sully,102,7.2
 SD,Todd,4928,48.6
@@ -2437,9 +2437,9 @@ TN,Cannon,2149,15.5
 TN,Carroll,4894,18.3
 TN,Carter,11903,21.5
 TN,Cheatham,4375,11.1
-TN,Chester,2573,16.0
+TN,Chester,2573,16
 TN,Claiborne,7735,25.4
-TN,Clay,1681,22.0
+TN,Clay,1681,22
 TN,Cocke,8448,24.2
 TN,Coffee,7705,14.3
 TN,Crockett,2491,17.6
@@ -2448,14 +2448,14 @@ TN,Davidson,99415,15.1
 TN,Decatur,2164,18.8
 TN,DeKalb,3760,19.8
 TN,Dickson,6973,13.5
-TN,Dyer,7402,20.0
+TN,Dyer,7402,20
 TN,Fayette,5655,14.5
 TN,Fentress,3812,21.4
 TN,Franklin,6143,15.5
 TN,Gibson,8157,16.9
 TN,Giles,4751,16.7
-TN,Grainger,4563,20.0
-TN,Greene,11398,17.0
+TN,Grainger,4563,20
+TN,Greene,11398,17
 TN,Grundy,2969,22.6
 TN,Hamblen,11601,18.5
 TN,Hamilton,47050,13.5
@@ -2463,7 +2463,7 @@ TN,Hancock,1983,30.9
 TN,Hardeman,5443,25.2
 TN,Hardin,5438,21.5
 TN,Hawkins,10717,19.2
-TN,Haywood,3530,20.0
+TN,Haywood,3530,20
 TN,Henderson,4777,17.4
 TN,Henry,6187,19.5
 TN,Hickman,4754,20.7
@@ -2480,9 +2480,9 @@ TN,Lewis,2163,18.5
 TN,Lincoln,5546,16.7
 TN,Loudon,5414,10.6
 TN,McMinn,8740,16.9
-TN,McNairy,5623,22.0
+TN,McNairy,5623,22
 TN,Macon,4117,17.9
-TN,Madison,17777,19.0
+TN,Madison,17777,19
 TN,Marion,5157,18.3
 TN,Marshall,4148,13.2
 TN,Maury,10204,11.5
@@ -2494,14 +2494,14 @@ TN,Morgan,4368,22.7
 TN,Obion,5604,18.6
 TN,Overton,4066,18.7
 TN,Perry,1728,22.1
-TN,Pickett,856,17.0
+TN,Pickett,856,17
 TN,Polk,2670,16.2
 TN,Putnam,14046,19.2
 TN,Rhea,5739,18.2
 TN,Roane,7416,14.2
 TN,Robertson,7061,10.3
 TN,Rutherford,31097,10.3
-TN,Scott,4755,22.0
+TN,Scott,4755,22
 TN,Sequatchie,2598,17.7
 TN,Sevier,14386,15.1
 TN,Shelby,190199,20.8
@@ -2523,7 +2523,7 @@ TN,Williamson,11292,5.2
 TN,Wilson,10632,8.1
 TX,Anderson,9044,20.5
 TX,Andrews,2073,11.7
-TX,Angelina,16085,19.0
+TX,Angelina,16085,19
 TX,Aransas,4751,18.8
 TX,Archer,909,10.5
 TX,Armstrong,197,10.8
@@ -2533,7 +2533,7 @@ TX,Bailey,1165,16.6
 TX,Bandera,3138,14.6
 TX,Bastrop,10632,13.2
 TX,Baylor,630,17.6
-TX,Bee,6798,27.0
+TX,Bee,6798,27
 TX,Bell,42739,12.9
 TX,Bexar,306859,16.3
 TX,Blanco,1207,10.7
@@ -2587,7 +2587,7 @@ TX,Dickens,406,21.8
 TX,Dimmit,2940,27.6
 TX,Donley,593,18.6
 TX,Duval,2857,26.3
-TX,Eastland,3475,20.0
+TX,Eastland,3475,20
 TX,Ector,21548,13.9
 TX,Edwards,443,23.3
 TX,Ellis,16121,9.7
@@ -2598,14 +2598,14 @@ TX,Fannin,5015,16.1
 TX,Fayette,2750,11.1
 TX,Fisher,597,15.6
 TX,Floyd,1339,22.8
-TX,Foard,207,18.0
+TX,Foard,207,18
 TX,Fort Bend,60925,8.3
 TX,Franklin,1659,15.8
 TX,Freestone,3435,19.1
 TX,Frio,4005,25.8
 TX,Gaines,2982,14.6
 TX,Galveston,41747,12.9
-TX,Garza,1290,30.0
+TX,Garza,1290,30
 TX,Gillespie,2563,9.8
 TX,Glasscock,114,8.7
 TX,Goliad,1059,14.3
@@ -2626,7 +2626,7 @@ TX,Harrison,11328,17.4
 TX,Hartley,452,9.6
 TX,Haskell,1258,24.5
 TX,Hays,24332,12.4
-TX,Hemphill,406,10.0
+TX,Hemphill,406,10
 TX,Henderson,13151,16.8
 TX,Hidalgo,262028,31.2
 TX,Hill,5542,16.2
@@ -2638,11 +2638,11 @@ TX,Howard,5478,17.9
 TX,Hudspeth,848,21.4
 TX,Hunt,14584,16.3
 TX,Hutchinson,2783,13.1
-TX,Irion,125,8.0
+TX,Irion,125,8
 TX,Jack,1315,17.2
 TX,Jackson,1966,13.5
 TX,Jasper,6652,19.2
-TX,Jeff Davis,274,13.0
+TX,Jeff Davis,274,13
 TX,Jefferson,47920,20.1
 TX,Jim Hogg,1431,27.9
 TX,Jim Wells,9459,23.2
@@ -2656,7 +2656,7 @@ TX,Kent,83,11.5
 TX,Kerr,7348,14.8
 TX,Kimble,848,19.4
 TX,King,31,10.7
-TX,Kinney,652,20.0
+TX,Kinney,652,20
 TX,Kleberg,6871,22.9
 TX,Knox,781,21.1
 TX,Lamar,9751,19.9
@@ -2665,7 +2665,7 @@ TX,Lampasas,2793,13.6
 TX,La Salle,1561,26.2
 TX,Lavaca,2418,12.5
 TX,Lee,2105,12.7
-TX,Leon,3090,18.0
+TX,Leon,3090,18
 TX,Liberty,12164,15.9
 TX,Limestone,4608,21.1
 TX,Lipscomb,426,12.4
@@ -2676,10 +2676,10 @@ TX,Lubbock,55089,18.9
 TX,Lynn,1010,17.9
 TX,McCulloch,1479,18.4
 TX,McLennan,44099,18.5
-TX,McMullen,95,12.0
+TX,McMullen,95,12
 TX,Madison,1993,17.3
 TX,Marion,2250,22.6
-TX,Martin,738,13.0
+TX,Martin,738,13
 TX,Mason,543,13.2
 TX,Matagorda,6392,17.4
 TX,Maverick,13759,24.3
@@ -2692,7 +2692,7 @@ TX,Mitchell,1473,21.6
 TX,Montague,3165,16.5
 TX,Montgomery,59836,10.9
 TX,Moore,2596,11.8
-TX,Morris,2489,20.0
+TX,Morris,2489,20
 TX,Motley,210,18.2
 TX,Nacogdoches,15402,25.4
 TX,Navarro,8491,17.8
@@ -2701,21 +2701,21 @@ TX,Nolan,2697,18.4
 TX,Nueces,53441,15.1
 TX,Ochiltree,1170,11.4
 TX,Oldham,261,14.3
-TX,Orange,11751,14.0
+TX,Orange,11751,14
 TX,Palo Pinto,4547,16.4
 TX,Panola,3598,15.6
 TX,Parker,11838,9.3
 TX,Parmer,1500,15.5
 TX,Pecos,2376,17.1
 TX,Polk,8845,20.3
-TX,Potter,25040,22.0
+TX,Potter,25040,22
 TX,Presidio,1677,24.1
 TX,Rains,1657,14.8
 TX,Randall,11784,9.1
 TX,Reagan,423,11.8
 TX,Real,609,18.4
 TX,Red River,2057,17.1
-TX,Reeves,2943,25.0
+TX,Reeves,2943,25
 TX,Refugio,1128,15.7
 TX,Roberts,60,6.6
 TX,Robertson,3097,18.7
@@ -2768,8 +2768,8 @@ TX,Wilbarger,1981,15.8
 TX,Willacy,7076,38.3
 TX,Williamson,30201,5.8
 TX,Wilson,4958,10.4
-TX,Winkler,1164,15.0
-TX,Wise,7591,12.0
+TX,Winkler,1164,15
+TX,Wise,7591,12
 TX,Wood,5559,13.2
 TX,Yoakum,1025,12.2
 TX,Young,2599,14.6
@@ -2793,10 +2793,10 @@ UT,Morgan,493,4.3
 UT,Piute,253,17.7
 UT,Rich,215,9.3
 UT,Salt Lake,104297,9.4
-UT,San Juan,5138,31.0
+UT,San Juan,5138,31
 UT,Sanpete,4520,16.8
 UT,Sevier,2907,13.8
-UT,Summit,2412,6.0
+UT,Summit,2412,6
 UT,Tooele,5189,8.1
 UT,Uintah,4094,11.4
 UT,Utah,66112,11.4
@@ -2817,8 +2817,8 @@ VT,Orleans,4029,15.5
 VT,Rutland,7591,13.3
 VT,Washington,6080,10.8
 VT,Windham,5318,12.7
-VT,Windsor,5479,10.0
-VA,Accomack,6493,20.0
+VT,Windsor,5479,10
+VA,Accomack,6493,20
 VA,Albemarle,8524,8.5
 VA,Alleghany,2288,14.9
 VA,Amelia,1328,10.4
@@ -2836,17 +2836,17 @@ VA,Buckingham,2613,17.6
 VA,Campbell,7220,13.3
 VA,Caroline,2937,9.9
 VA,Carroll,4775,16.3
-VA,Charles City,877,12.4
+VA,Charles  ,877,12.4
 VA,Charlotte,2488,20.8
-VA,Chesterfield,23468,7.0
+VA,Chesterfield,23468,7
 VA,Clarke,1115,7.9
 VA,Craig,648,12.6
 VA,Culpeper,4766,9.8
 VA,Cumberland,1747,18.2
 VA,Dickenson,3684,25.6
-VA,Dinwiddie,3565,13.0
+VA,Dinwiddie,3565,13
 VA,Essex,1439,13.1
-VA,Fairfax,67736,6.0
+VA,Fairfax,67736,6
 VA,Fauquier,3978,5.8
 VA,Floyd,2129,13.7
 VA,Fluvanna,1867,7.5
@@ -2864,11 +2864,11 @@ VA,Henrico,29583,9.2
 VA,Henry,9333,18.4
 VA,Highland,293,13.3
 VA,Isle of Wight,3430,9.5
-VA,James City,4739,6.5
+VA,James  ,4739,6.5
 VA,King and Queen,960,13.4
 VA,King George,1728,6.8
 VA,King William,1248,7.7
-VA,Lancaster,1514,14.0
+VA,Lancaster,1514,14
 VA,Lee,6727,29.9
 VA,Loudoun,13511,3.5
 VA,Louisa,4261,12.2
@@ -2906,58 +2906,58 @@ VA,Spotsylvania,9648,7.4
 VA,Stafford,7935,5.7
 VA,Surry,876,13.4
 VA,Sussex,2070,23.1
-VA,Tazewell,7281,18.0
+VA,Tazewell,7281,18
 VA,Warren,3922,10.3
 VA,Washington,7744,14.7
 VA,Westmoreland,2581,14.8
 VA,Wise,8525,23.5
 VA,Wythe,4135,14.4
 VA,York,3417,5.1
-VA,Alexandria city,16096,10.5
-VA,Bristol city,3953,23.6
-VA,Buena Vista city,975,16.2
-VA,Charlottesville city,10235,22.8
-VA,Chesapeake city,20071,8.6
-VA,Colonial Heights city,1819,10.4
-VA,Covington city,862,15.9
-VA,Danville city,9003,22.3
-VA,Emporia city,1172,23.2
-VA,Fairfax city,1611,6.8
-VA,Falls Church city,509,3.6
-VA,Franklin city,1491,18.2
-VA,Fredericksburg city,3755,14.6
-VA,Galax city,1327,20.5
-VA,Hampton city,21458,16.4
-VA,Harrisonburg city,12919,28.4
-VA,Hopewell city,4630,20.7
-VA,Lexington city,965,22.2
-VA,Lynchburg city,12336,17.8
-VA,Manassas city,3980,9.7
-VA,Manassas Park city,1231,7.8
-VA,Martinsville city,3035,23.2
-VA,Newport News city,25395,14.7
-VA,Norfolk city,45219,21.3
-VA,Norton city,875,23.0
-VA,Petersburg city,7884,25.2
-VA,Poquoson city,650,5.4
-VA,Portsmouth city,16775,18.2
-VA,Radford city,3931,27.2
-VA,Richmond city,55062,26.2
-VA,Roanoke city,21886,22.3
-VA,Salem city,2160,9.2
-VA,Staunton city,2990,12.8
-VA,Suffolk city,10303,11.7
-VA,Virginia Beach city,36494,8.3
-VA,Waynesboro city,3167,14.6
-VA,Williamsburg city,2275,21.1
-VA,Winchester city,3966,15.0
+VA,Alexandria  ,16096,10.5
+VA,Bristol  ,3953,23.6
+VA,Buena Vista  ,975,16.2
+VA,Charlottesville  ,10235,22.8
+VA,Chesapeake  ,20071,8.6
+VA,Colonial Heights  ,1819,10.4
+VA,Covington  ,862,15.9
+VA,Danville  ,9003,22.3
+VA,Emporia  ,1172,23.2
+VA,Fairfax  ,1611,6.8
+VA,Falls Church  ,509,3.6
+VA,Franklin  ,1491,18.2
+VA,Fredericksburg  ,3755,14.6
+VA,Galax  ,1327,20.5
+VA,Hampton  ,21458,16.4
+VA,Harrisonburg  ,12919,28.4
+VA,Hopewell  ,4630,20.7
+VA,Lexington  ,965,22.2
+VA,Lynchburg  ,12336,17.8
+VA,Manassas  ,3980,9.7
+VA,Manassas Park  ,1231,7.8
+VA,Martinsville  ,3035,23.2
+VA,Newport News  ,25395,14.7
+VA,Norfolk  ,45219,21.3
+VA,Norton  ,875,23
+VA,Petersburg  ,7884,25.2
+VA,Poquoson  ,650,5.4
+VA,Portsmouth  ,16775,18.2
+VA,Radford  ,3931,27.2
+VA,Richmond  ,55062,26.2
+VA,Roanoke  ,21886,22.3
+VA,Salem  ,2160,9.2
+VA,Staunton  ,2990,12.8
+VA,Suffolk  ,10303,11.7
+VA,Virginia Beach  ,36494,8.3
+VA,Waynesboro  ,3167,14.6
+VA,Williamsburg  ,2275,21.1
+VA,Winchester  ,3966,15
 WA,Adams,3710,19.5
 WA,Asotin,3225,14.6
 WA,Benton,20153,10.5
 WA,Chelan,8665,11.5
 WA,Clallam,11110,15.3
-WA,Clark,41909,9.0
-WA,Columbia,543,14.0
+WA,Clark,41909,9
+WA,Columbia,543,14
 WA,Cowlitz,16863,16.3
 WA,Douglas,5260,12.8
 WA,Ferry,1602,21.3
@@ -2966,7 +2966,7 @@ WA,Garfield,308,13.9
 WA,Grant,14842,16.1
 WA,Grays Harbor,10437,15.2
 WA,Island,7577,9.4
-WA,Jefferson,3679,12.0
+WA,Jefferson,3679,12
 WA,King,196841,9.3
 WA,Kitsap,25729,10.1
 WA,Kittitas,7724,18.2
@@ -2975,13 +2975,13 @@ WA,Lewis,11155,14.7
 WA,Lincoln,1279,12.5
 WA,Mason,8830,14.9
 WA,Okanogan,8082,19.7
-WA,Pacific,3578,17.0
+WA,Pacific,3578,17
 WA,Pend Oreille,2103,16.2
 WA,Pierce,102303,12.1
 WA,San Juan,1599,9.9
 WA,Skagit,13787,11.3
 WA,Skamania,1543,13.5
-WA,Snohomish,62396,8.0
+WA,Snohomish,62396,8
 WA,Spokane,64514,13.3
 WA,Stevens,6284,14.3
 WA,Thurston,28354,10.4
@@ -2997,12 +2997,12 @@ WV,Braxton,2998,21.3
 WV,Brooke,2955,13.4
 WV,Cabell,20129,21.9
 WV,Calhoun,1586,21.8
-WV,Clay,2541,29.0
+WV,Clay,2541,29
 WV,Doddridge,1460,19.7
 WV,Fayette,8365,19.7
 WV,Gilmer,1706,27.1
-WV,Grant,1737,15.0
-WV,Greenbrier,5520,16.0
+WV,Grant,1737,15
+WV,Greenbrier,5520,16
 WV,Hampshire,3585,15.7
 WV,Hancock,3876,13.2
 WV,Hardy,2096,15.2
@@ -3040,7 +3040,7 @@ WV,Tucker,1067,15.8
 WV,Tyler,1431,16.1
 WV,Upshur,4705,20.2
 WV,Wayne,8651,21.5
-WV,Webster,2564,30.0
+WV,Webster,2564,30
 WV,Wetzel,3023,19.5
 WV,Wirt,1049,18.1
 WV,Wood,14510,17.2
@@ -3052,7 +3052,7 @@ WI,Bayfield,1821,12.4
 WI,Brown,24903,9.8
 WI,Buffalo,1369,10.5
 WI,Burnett,2068,13.8
-WI,Calumet,2462,5.0
+WI,Calumet,2462,5
 WI,Chippewa,7042,11.5
 WI,Clark,4676,13.8
 WI,Columbia,4561,8.2
@@ -3074,22 +3074,22 @@ WI,Iron,809,14.4
 WI,Jackson,2132,11.1
 WI,Jefferson,7618,9.3
 WI,Juneau,3561,14.4
-WI,Kenosha,21222,13.0
+WI,Kenosha,21222,13
 WI,Kewaunee,1526,7.6
 WI,La Crosse,14977,13.3
 WI,Lafayette,1937,11.7
 WI,Langlade,2681,14.2
-WI,Lincoln,2712,10.0
+WI,Lincoln,2712,10
 WI,Manitowoc,7229,9.2
 WI,Marathon,13941,10.4
 WI,Marinette,4916,12.4
-WI,Marquette,1781,12.0
+WI,Marquette,1781,12
 WI,Menominee,1214,27.2
 WI,Milwaukee,183511,19.8
-WI,Monroe,5384,12.0
+WI,Monroe,5384,12
 WI,Oconto,3364,9.1
 WI,Oneida,3352,9.6
-WI,Outagamie,14548,8.0
+WI,Outagamie,14548,8
 WI,Ozaukee,4626,5.4
 WI,Pepin,823,11.5
 WI,Pierce,3153,8.1
@@ -3121,7 +3121,7 @@ WY,Albany,6229,17.3
 WY,Big Horn,1342,11.4
 WY,Campbell,4067,8.4
 WY,Carbon,1787,12.1
-WY,Converse,1272,9.0
+WY,Converse,1272,9
 WY,Crook,613,8.3
 WY,Fremont,6616,16.8
 WY,Goshen,1776,14.6
@@ -3132,7 +3132,7 @@ WY,Lincoln,1631,8.6
 WY,Natrona,8244,10.4
 WY,Niobrara,318,14.3
 WY,Park,3173,11.1
-WY,Platte,1031,12.0
+WY,Platte,1031,12
 WY,Sheridan,2691,9.2
 WY,Sublette,646,6.7
 WY,Sweetwater,4264,9.8

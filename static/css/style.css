@@ -1,20 +1,14 @@
-/*navbar formatting*/
-.navbar {
-    height: 100px;
+/*jumbotron formatting*/
+.jumbotron{
+    background-color:  #ccccb3;
+    text-align: center;
 }
 
-.navbar-brand {
+.display-4{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 50px;
 }
 
-.navbar-collapse {
-    position: absolute;
-    right: 5%;
-    font-size: 20px;
+.lead {
+    font-size: 25px;
 }
-
-.dropdown-item {
-    font-weight: bold;
-}
-
