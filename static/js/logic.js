@@ -120,10 +120,31 @@ function chartData(stateData) {
 
     var layout = {
       barmode: "stack",
-      title: "Air Quality Measurements Per County"
+      title: "Air Quality Breakdown Per County"
     };
     
     Plotly.newPlot("bar", data, layout);
+
+
+    //line chart
+    //total aqi days vs poverty percentage for filtered stateData
+    var povertytrace = {
+      x: county,
+      y: povertyPercent2019,
+      name: 'Poverty Percentage',
+      type: 'scatter'
+    };
+    
+    var aqitrace = {
+      x: county,
+      y: aqiTotal2019,
+      name: 'Total AQI Days',
+      type: 'scatter'
+    };
+    
+    var data = [povertytrace, aqitrace];
+    
+    Plotly.newPlot('line', data);
 
   })
 }
