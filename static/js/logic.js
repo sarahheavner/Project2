@@ -4,6 +4,24 @@ d3.json("/clean_data/combineddata.json").then((data) => {
 });
 
 // Use d3 to read json data and state abbreviations to dropdown
+// function init () {
+//   d3.json("/clean_data/combineddata.json").then((data) => {
+//     var unique = [];
+//     var state = [];
+//     for (var i = 0; i < data.length; i++) {
+//       if (!unique[data[i].us_state]) {
+//         state.push(data[i].us_state);
+//         unique[data[i].us_state] = 1;
+//     }}
+//     console.log(state);
+//     console.log(unique);
+//     d3.select("#selDataset").append("option")
+//     .text(state)
+//     .property("value", state);
+//   });
+//   chartData("AL");
+// }
+
 function init () {
   d3.json("/clean_data/combineddata.json").then((data) => {
     var unique = [];
@@ -15,12 +33,15 @@ function init () {
     }}
     console.log(state);
     console.log(unique);
-    d3.select("#selDataset").append("option")
-    .text(state)
-    .property("value", state);
+    state.forEach((state) => {
+      d3.select("#selDataset").append("option")
+      .text(state)
+      .property("value", state);
+    });
   });
   chartData("AL");
 }
+
 
 //function to filter data by state for charts
 function chartData(stateData) {
@@ -33,42 +54,61 @@ function chartData(stateData) {
 
     //create variable for barchart
     var county = [];
-    var coDays2019 = [];
-    var no2Days2019 = [];
-    var ozoneDays2019 = [];
-    var so2Days2019 = [];
-    var pm2Days2019 = [];
-    var pm10Days2019 = [];
+    var coDays = [];
+    var no2Days = [];
+    var ozoneDays = [];
+    var so2Days = [];
+    var pm2Days = [];
+    var pm10Days = [];
 
     //create variable for linechart
-    var povertyPercent2019 = [];
-    var aqiTotal2019 = [];
+    var povertyPercent = [];
+    // var aqiTotal2019 = [];
+    var good_days = [];
+    var moderate_days = [];
+    var unhealthy_sensitive_days = [];
+    var unhealthy_days = [];
+    var very_unhealthy_days = [];
+    var hazardous_days = [];
 
     // loop through filtered state data and push values to variables 
     for (var i = 0; i < initialChart.length; i++) {
       //bar chart
       county.push(initialChart[i].county);
-      coDays2019.push(initialChart[i].days_co2019);
-      no2Days2019.push(initialChart[i].days_no2_2019);
-      ozoneDays2019.push(initialChart[i].days_ozone2019);     
-      so2Days2019.push(initialChart[i].days_so2_2019);
-      pm2Days2019.push(initialChart[i].days_pm2_2019);
-      pm10Days2019.push(initialChart[i].days_pm10_2019);
+      coDays.push(initialChart[i].days_co2019);
+      no2Days.push(initialChart[i].days_no2_2019);
+      ozoneDays.push(initialChart[i].days_ozone2019);     
+      so2Days.push(initialChart[i].days_so2_2019);
+      pm2Days.push(initialChart[i].days_pm2_2019);
+      pm10Days.push(initialChart[i].days_pm10_2019);
       //line chart
-      povertyPercent2019.push(initialChart[i].poverty_percentage2019);
-      aqiTotal2019.push(initialChart[i].days_with_aqi2019);
+      povertyPercent.push(initialChart[i].poverty_percentage2019);
+      // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
+      good_days.push(initialChart[i].good_days2019);
+      moderate_days.push(initialChart[i].moderate_days2019);
+      unhealthy_sensitive_days.push(initialChart[i].unhealthy_sensitive_days2019);
+      unhealthy_days.push(initialChart[i].unhealthy_days2019);
+      very_unhealthy_days.push(initialChart[i].very_unhealthy_days2019);
+      hazardous_days.push(initialChart[i].hazardous_days2019);
+
       
     }
     //log filtered results in console
     console.log(county);
-    console.log(coDays2019);
-    console.log(no2Days2019);
-    console.log(ozoneDays2019);
-    console.log(so2Days2019);
-    console.log(pm2Days2019);
-    console.log(pm10Days2019);
-    console.log(povertyPercent2019);
-    console.log(aqiTotal2019);
+    console.log(coDays);
+    console.log(no2Days);
+    console.log(ozoneDays);
+    console.log(so2Days);
+    console.log(pm2Days);
+    console.log(pm10Days);
+    console.log(povertyPercent);
+    // console.log(aqiTotal2019);
+    console.log(good_days);
+    console.log(moderate_days);
+    console.log(unhealthy_sensitive_days);
+    console.log(unhealthy_days);
+    console.log(very_unhealthy_days);
+    console.log(hazardous_days);
 
     //inital charts
 
@@ -76,51 +116,58 @@ function chartData(stateData) {
     //aqi days breakdown per county of filtered state 
     var cotrace= {
       x: county,
-      y: coDays2019,
+      y: coDays,
       name: "CO Days",
       type: "bar"
     };
 
     var no2trace = {
       x: county,
-      y: no2Days2019,
+      y: no2Days,
       name: "NO2 Days",
       type: "bar"
     };
 
     var ozonetrace = {
       x: county,
-      y: ozoneDays2019,
+      y: ozoneDays,
       name: "Ozone Days",
       type: "bar"
     };
 
     var so2trace = {
       x: county,
-      y: so2Days2019,
+      y: so2Days,
       name: "SO2 Days",
       type: "bar"
     };
 
     var pm2trace = {
       x: county,
-      y: pm2Days2019,
+      y: pm2Days,
       name: "PM2.5 Days",
       type: "bar"
     };
 
     var pm10trace = {
       x: county,
-      y: pm10Days2019,
+      y: pm10Days,
       name: "PM10 Days",
       type: "bar"
     };
 
-    var data = [cotrace, no2trace, ozonetrace, so2trace,pm2trace, pm10trace];
+    var povertytrace = {
+      x: county,
+      y: povertyPercent,
+      name: "Poverty Percentage",
+      type: "scatter"
+    }
+
+    var data = [cotrace, no2trace, ozonetrace, so2trace,pm2trace, pm10trace, povertytrace];
 
     var layout = {
       barmode: "stack",
-      title: "Air Quality Breakdown Per County"
+      title: "Pollutant Breakdown Per County"
     };
     
     Plotly.newPlot("bar", data, layout);
@@ -130,30 +177,62 @@ function chartData(stateData) {
     //total aqi days vs poverty percentage for filtered stateData
     var povertytrace = {
       x: county,
-      y: povertyPercent2019,
-      name: 'Poverty Percentage',
-      type: 'scatter'
+      y: povertyPercent,
+      name: "Poverty Percentage",
+      type: "scatter"
     };
     
-    var aqitrace = {
+    var hazardousDaysTrace = {
       x: county,
-      y: aqiTotal2019,
-      name: 'Total AQI Days',
-      type: 'scatter'
+      y: hazardous_days,
+      name: "Hazardous Days",
+      type: "scatter"
     };
+
+    var veryUnhealthyTrace = {
+      x: county,
+      y: very_unhealthy_days,
+      name: "Very Unhealthy Days",
+      type: "scatter"
+    }
+
+    var unhealthyTrace = {
+      x: county, 
+      y: unhealthy_days,
+      name: "Unhealthy Days",
+      type: "scatter"
+    }
+
+    var unhealthySensitiveTrace = {
+      x: county,
+      y: unhealthy_sensitive_days,
+      name: "Unhealthy Sensitive Days",
+      type: "scatter"
+    }
+
+    var moderateTrace = {
+      x: county,
+      y: moderate_days,
+      name: "Moderate Days",
+      type: "scatter"
+    }
+
+    var goodTrace = {
+      x: county,
+      y: good_days,
+      name: "Good Days",
+      type: "scatter"
+    }
     
-    var data = [povertytrace, aqitrace];
+    var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace, moderateTrace, goodTrace]
     
-    Plotly.newPlot('line', data);
+    Plotly.newPlot('line', scatterdata);
 
   })
 }
 
-
-
-
+function optionChanged(stateData) {
+  chartData(stateData);
+};
 
 init()
-
-
-
