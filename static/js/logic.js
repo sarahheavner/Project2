@@ -24,8 +24,9 @@ function init () {
     });
   });
 
+  // list of years for second dropdown menu
   var year = [2019, 2018, 2017, 2016];
-
+  //add each year to second dropdown menu
   year.forEach((year) => {
     d3.select("#selDataset2").append("option")
       .text(year)
@@ -85,9 +86,8 @@ function chartData(stateData) {
       unhealthy_days.push(initialChart[i].unhealthy_days2019);
       very_unhealthy_days.push(initialChart[i].very_unhealthy_days2019);
       hazardous_days.push(initialChart[i].hazardous_days2019);
-
-      
     }
+
     //log filtered results in console
     console.log(county);
     console.log(coDays);
@@ -226,8 +226,10 @@ function chartData(stateData) {
   })
 }
 
+//function to update charts when new state is selected
 function optionChanged(stateData) {
   chartData(stateData);
 };
+
 
 init()
