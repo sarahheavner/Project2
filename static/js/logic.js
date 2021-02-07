@@ -4,25 +4,8 @@ d3.json("/clean_data/combineddata.json").then((data) => {
 });
 
 // Use d3 to read json data and state abbreviations to dropdown
-// function init () {
-//   d3.json("/clean_data/combineddata.json").then((data) => {
-//     var unique = [];
-//     var state = [];
-//     for (var i = 0; i < data.length; i++) {
-//       if (!unique[data[i].us_state]) {
-//         state.push(data[i].us_state);
-//         unique[data[i].us_state] = 1;
-//     }}
-//     console.log(state);
-//     console.log(unique);
-//     d3.select("#selDataset").append("option")
-//     .text(state)
-//     .property("value", state);
-//   });
-//   chartData("AL");
-// }
-
 function init () {
+  //create list with unique state abbreviations 
   d3.json("/clean_data/combineddata.json").then((data) => {
     var unique = [];
     var state = [];
@@ -33,12 +16,24 @@ function init () {
     }}
     console.log(state);
     console.log(unique);
+    //add each state abbreviation to dropdown menu
     state.forEach((state) => {
       d3.select("#selDataset").append("option")
       .text(state)
       .property("value", state);
     });
   });
+
+  var year = [2019, 2018, 2017, 2016];
+
+  year.forEach((year) => {
+    d3.select("#selDataset2").append("option")
+      .text(year)
+      .property("value", year);
+
+  });
+    
+  //initial chart filter 
   chartData("AL");
 }
 
