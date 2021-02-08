@@ -13,3 +13,36 @@
     font-size: 25px;
 }
 
+
+/*filter box formatting*/
+.well {
+    border: 2px solid;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #ccccb3;
+}
+
+#selDataset {
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 1px;
+}
+
+#selDataset2 {
+    font-size: 15px;
+}
+
+
+
+body {
+    background-color: #ebebe0;
+}
+
+.row {
+    padding-left: 50px;
+}
+
+
+

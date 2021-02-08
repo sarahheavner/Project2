@@ -29,21 +29,26 @@
       </div>
       <div class="container-fluid">
         <div class="main-text">
-          <h2> Here is some text</h2>
+          <p> Below is an interactive dataset that plots various air quality data against poverty data for counties in the United States.
+            
+          </p>
         </div>
       </div>
 
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Data Filter<h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select><br>
-          <select id="selDataset2" onchange="getData(this.value)"></select>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Data Filter<h5><hr>
+            <select id="selDataset" onchange="optionChanged(this.value)"></select><br>
+            <select id="selDataset2" onchange="getData(this.value)"></select>
+          </div>
         </div>
-      </div>
 
-      <div class="chart">
-        <div id="bar"></div>
-        <div id="line"></div>
+        <div class="col-md-9">
+          <div class="chart">
+            <div id="bar"></div> <br>
+          <div id="line"></div>
+        </div>
       </div>
 
       
