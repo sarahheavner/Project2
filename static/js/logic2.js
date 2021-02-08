@@ -36,7 +36,7 @@ function init () {
    
  //initial chart filter 
  chartData("AL");
- chartYear(2019);
+//  chartYear(2019);
 }
 
 
@@ -208,121 +208,121 @@ function chartData(stateData) {
  })
 }
 
-function chartYear(chosenYear) {
-    d3.json("/clean_data/combineddata.json").then((data) => {
-        var chosenYear = [2019, 2018, 2017, 2016];
+// function chartYear(chosenYear) {
+//     d3.json("/clean_data/combineddata.json").then((data) => {
+//         var chosenYear = [2019, 2018, 2017, 2016];
 
-        //create variable for barchart
-        var county = [];
-        var coDays = [];
-        var no2Days = [];
-        var ozoneDays = [];
-        var so2Days = [];
-        var pm2Days = [];
-        var pm10Days = [];
+//         //create variable for barchart
+//         var county = [];
+//         var coDays = [];
+//         var no2Days = [];
+//         var ozoneDays = [];
+//         var so2Days = [];
+//         var pm2Days = [];
+//         var pm10Days = [];
 
-        //create variable for linechart
-        var povertyPercent = [];
-        // var aqiTotal2019 = [];
-        var good_days = [];
-        var moderate_days = [];
-        var unhealthy_sensitive_days = [];
-        var unhealthy_days = [];
-        var very_unhealthy_days = [];
-        var hazardous_days = [];
+//         //create variable for linechart
+//         var povertyPercent = [];
+//         // var aqiTotal2019 = [];
+//         var good_days = [];
+//         var moderate_days = [];
+//         var unhealthy_sensitive_days = [];
+//         var unhealthy_days = [];
+//         var very_unhealthy_days = [];
+//         var hazardous_days = [];
         
         
-        if (chosenYear === 2019) {
-            for (var i = 0; i < data.length; i++) {
-                //bar chart
-                county.push(data[i].county);
-                coDays.push(data[i].days_co2019);
-                no2Days.push(data[i].days_no2_2019);
-                ozoneDays.push(data[i].days_ozone2019);     
-                so2Days.push(data[i].days_so2_2019);
-                pm2Days.push(data[i].days_pm2_2019);
-                pm10Days.push(data[i].days_pm10_2019);
-                //line chart
-                povertyPercent.push(data[i].poverty_percentage2019);
-                // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
-                good_days.push(data[i].good_days2019);
-                moderate_days.push(data[i].moderate_days2019);
-                unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2019);
-                unhealthy_days.push(data[i].unhealthy_days2019);
-                very_unhealthy_days.push(data[i].very_unhealthy_days2019);
-                hazardous_days.push(data[i].hazardous_days2019);
-            };
-        }
+//         if (chosenYear === 2019) {
+//             for (var i = 0; i < data.length; i++) {
+//                 //bar chart
+//                 county.push(data[i].county);
+//                 coDays.push(data[i].days_co2019);
+//                 no2Days.push(data[i].days_no2_2019);
+//                 ozoneDays.push(data[i].days_ozone2019);     
+//                 so2Days.push(data[i].days_so2_2019);
+//                 pm2Days.push(data[i].days_pm2_2019);
+//                 pm10Days.push(data[i].days_pm10_2019);
+//                 //line chart
+//                 povertyPercent.push(data[i].poverty_percentage2019);
+//                 // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
+//                 good_days.push(data[i].good_days2019);
+//                 moderate_days.push(data[i].moderate_days2019);
+//                 unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2019);
+//                 unhealthy_days.push(data[i].unhealthy_days2019);
+//                 very_unhealthy_days.push(data[i].very_unhealthy_days2019);
+//                 hazardous_days.push(data[i].hazardous_days2019);
+//             };
+//         }
 
-        else if (chosenYear === 2018) {
-            for (var i = 0; i < data.length; i++) {
-                //bar chart
-                county.push(data[i].county);
-                coDays.push(data[i].days_co2018);
-                no2Days.push(data[i].days_no2_2018);
-                ozoneDays.push(data[i].days_ozone2018);     
-                so2Days.push(data[i].days_so2_2018);
-                pm2Days.push(data[i].days_pm2_2018);
-                pm10Days.push(data[i].days_pm10_2018);
-                //line chart
-                povertyPercent.push(data[i].poverty_percentage2018);
-                // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
-                good_days.push(data[i].good_days2018);
-                moderate_days.push(data[i].moderate_days2018);
-                unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2018);
-                unhealthy_days.push(data[i].unhealthy_days2018);
-                very_unhealthy_days.push(data[i].very_unhealthy_days2018);
-                hazardous_days.push(data[i].hazardous_days2018);
-            };
-        }
+//         else if (chosenYear === 2018) {
+//             for (var i = 0; i < data.length; i++) {
+//                 //bar chart
+//                 county.push(data[i].county);
+//                 coDays.push(data[i].days_co2018);
+//                 no2Days.push(data[i].days_no2_2018);
+//                 ozoneDays.push(data[i].days_ozone2018);     
+//                 so2Days.push(data[i].days_so2_2018);
+//                 pm2Days.push(data[i].days_pm2_2018);
+//                 pm10Days.push(data[i].days_pm10_2018);
+//                 //line chart
+//                 povertyPercent.push(data[i].poverty_percentage2018);
+//                 // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
+//                 good_days.push(data[i].good_days2018);
+//                 moderate_days.push(data[i].moderate_days2018);
+//                 unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2018);
+//                 unhealthy_days.push(data[i].unhealthy_days2018);
+//                 very_unhealthy_days.push(data[i].very_unhealthy_days2018);
+//                 hazardous_days.push(data[i].hazardous_days2018);
+//             };
+//         }
 
-        else if (chosenYear === 2017) {
-            for (var i = 0; i < data.length; i++) {
-                //bar chart
-                county.push(data[i].county);
-                coDays.push(data[i].days_co2017);
-                no2Days.push(data[i].days_no2_2017);
-                ozoneDays.push(data[i].days_ozone2017);     
-                so2Days.push(data[i].days_so2_2017);
-                pm2Days.push(data[i].days_pm2_2017);
-                pm10Days.push(data[i].days_pm10_2017);
-                //line chart
-                povertyPercent.push(data[i].poverty_percentage2017);
-                // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
-                good_days.push(data[i].good_days2017);
-                moderate_days.push(data[i].moderate_days2017);
-                unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2017);
-                unhealthy_days.push(data[i].unhealthy_days2017);
-                very_unhealthy_days.push(data[i].very_unhealthy_days2017);
-                hazardous_days.push(data[i].hazardous_days2017);
-            };
-        }
-        else {
-            for (var i = 0; i < data.length; i++) {
-                //bar chart
-                county.push(data[i].county);
-                coDays.push(data[i].days_co2016);
-                no2Days.push(data[i].days_no2_2016);
-                ozoneDays.push(data[i].days_ozone2016);     
-                so2Days.push(data[i].days_so2_2016);
-                pm2Days.push(data[i].days_pm2_2016);
-                pm10Days.push(data[i].days_pm10_2016);
-                //line chart
-                povertyPercent.push(data[i].poverty_percentage2016);
-                // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
-                good_days.push(data[i].good_days2016);
-                moderate_days.push(data[i].moderate_days2016);
-                unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2016);
-                unhealthy_days.push(data[i].unhealthy_days2016);
-                very_unhealthy_days.push(data[i].very_unhealthy_days2016);
-                hazardous_days.push(data[i].hazardous_days2016);
-            };
+//         else if (chosenYear === 2017) {
+//             for (var i = 0; i < data.length; i++) {
+//                 //bar chart
+//                 county.push(data[i].county);
+//                 coDays.push(data[i].days_co2017);
+//                 no2Days.push(data[i].days_no2_2017);
+//                 ozoneDays.push(data[i].days_ozone2017);     
+//                 so2Days.push(data[i].days_so2_2017);
+//                 pm2Days.push(data[i].days_pm2_2017);
+//                 pm10Days.push(data[i].days_pm10_2017);
+//                 //line chart
+//                 povertyPercent.push(data[i].poverty_percentage2017);
+//                 // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
+//                 good_days.push(data[i].good_days2017);
+//                 moderate_days.push(data[i].moderate_days2017);
+//                 unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2017);
+//                 unhealthy_days.push(data[i].unhealthy_days2017);
+//                 very_unhealthy_days.push(data[i].very_unhealthy_days2017);
+//                 hazardous_days.push(data[i].hazardous_days2017);
+//             };
+//         }
+//         else {
+//             for (var i = 0; i < data.length; i++) {
+//                 //bar chart
+//                 county.push(data[i].county);
+//                 coDays.push(data[i].days_co2016);
+//                 no2Days.push(data[i].days_no2_2016);
+//                 ozoneDays.push(data[i].days_ozone2016);     
+//                 so2Days.push(data[i].days_so2_2016);
+//                 pm2Days.push(data[i].days_pm2_2016);
+//                 pm10Days.push(data[i].days_pm10_2016);
+//                 //line chart
+//                 povertyPercent.push(data[i].poverty_percentage2016);
+//                 // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
+//                 good_days.push(data[i].good_days2016);
+//                 moderate_days.push(data[i].moderate_days2016);
+//                 unhealthy_sensitive_days.push(data[i].unhealthy_sensitive_days2016);
+//                 unhealthy_days.push(data[i].unhealthy_days2016);
+//                 very_unhealthy_days.push(data[i].very_unhealthy_days2016);
+//                 hazardous_days.push(data[i].hazardous_days2016);
+//             };
             
-        }
-        // updatePlotly(year);
-        console.log(ozoneDays);
-    });
-}
+//         }
+//         // updatePlotly(year);
+//         console.log(ozoneDays);
+//     });
+// }
   
 
 //function to update charts when new state is selected
@@ -330,9 +330,9 @@ function optionChanged(stateData) {
     chartData(stateData);
 };
 
-function getData(chosenYear) {
-    chartYear(chosenYear);
-};
+// function getData(chosenYear) {
+//     chartYear(chosenYear);
+// };
 
 
 init()

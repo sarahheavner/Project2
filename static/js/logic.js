@@ -155,7 +155,10 @@ function chartData(stateData) {
       x: county,
       y: povertyPercent,
       name: "Poverty Percentage",
-      type: "scatter"
+      type: "scatter",
+      marker: {
+        color: "black",
+      }
     }
 
     var data = [cotrace, no2trace, ozonetrace, so2trace,pm2trace, pm10trace, povertytrace];
