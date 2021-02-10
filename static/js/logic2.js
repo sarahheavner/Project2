@@ -255,7 +255,9 @@ else if  (chosenYear === "2016") {
   x: county,
   y: povertyPercent,
   name: "Poverty Percentage",
-  type: "scatter"
+  type: "scatter",
+  marker: {size: 8,
+  color:"black"}
 };
 
 var hazardousDaysTrace = {
@@ -292,22 +294,7 @@ var unhealthySensitiveTrace = {
   type: "scatter",
   mode: 'markers',
   marker: {size: 12}
-  
 }
-
-// var moderateTrace = {
-//   x: county,
-//   y: moderate_days,
-//   name: "Moderate Days",
-//   type: "scatter"
-// }
-
-// var goodTrace = {
-//   x: county,
-//   y: good_days,
-//   name: "Good Days",
-//   type: "scatter"
-// }
 
 var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
 
