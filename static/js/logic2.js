@@ -230,20 +230,20 @@ else if  (chosenYear === "2016") {
    type: "scatter",
    marker: {
      color: "black",
-   }
+   },
  }
 
  var data = [cotrace, no2trace, ozonetrace, so2trace,pm2trace, pm10trace, povertytrace];
 
  var layout = {
    barmode: "stack",
-   title: "Poverty and Contaminant Breakdown Per County",
+   title: "Contaminant Breakdown Per County",
    yaxis: {title: 'Days Contaminant Present'},
    yaxis2: {
     // title: 'Poverty %',
     overlaying: 'y',
     side: 'right'
-   },
+   }
  };
  
  Plotly.newPlot("bar", data, layout);
@@ -252,60 +252,70 @@ else if  (chosenYear === "2016") {
  //line chart
  //total aqi days vs poverty percentage for filtered stateData
  var povertytrace = {
-   x: county,
-   y: povertyPercent,
-   name: "Poverty Percentage",
-   type: "scatter"
- };
- 
- var hazardousDaysTrace = {
-   x: county,
-   y: hazardous_days,
-   name: "Hazardous Days",
-   type: "scatter"
- };
+  x: county,
+  y: povertyPercent,
+  name: "Poverty Percentage",
+  type: "scatter"
+};
 
- var veryUnhealthyTrace = {
-   x: county,
-   y: very_unhealthy_days,
-   name: "Very Unhealthy Days",
-   type: "scatter"
- }
+var hazardousDaysTrace = {
+  x: county,
+  y: hazardous_days,
+  name: "Hazardous Days",
+  type: "scatter",
+  mode: 'markers',
+  marker: {size: 12}
+};
 
- var unhealthyTrace = {
-   x: county, 
-   y: unhealthy_days,
-   name: "Unhealthy Days",
-   type: "scatter"
- }
+var veryUnhealthyTrace = {
+  x: county,
+  y: very_unhealthy_days,
+  name: "Very Unhealthy Days",
+  type: "scatter",
+  mode: 'markers',
+  marker: {size: 12}
+}
 
- var unhealthySensitiveTrace = {
-   x: county,
-   y: unhealthy_sensitive_days,
-   name: "Unhealthy Sensitive Days",
-   type: "scatter"
- }
+var unhealthyTrace = {
+  x: county, 
+  y: unhealthy_days,
+  name: "Unhealthy Days",
+  type: "scatter", 
+  mode: 'markers',
+  marker: {size: 12}
+}
 
-//  var moderateTrace = {
-//    x: county,
-//    y: moderate_days,
-//    name: "Moderate Days",
-//    type: "scatter"
-//  }
+var unhealthySensitiveTrace = {
+  x: county,
+  y: unhealthy_sensitive_days,
+  name: "Unhealthy Sensitive Days",
+  type: "scatter",
+  mode: 'markers',
+  marker: {size: 12}
+  
+}
 
-//  var goodTrace = {
-//    x: county,
-//    y: good_days,
-//    name: "Good Days",
-//    type: "scatter"
-//  }
- 
- var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
+// var moderateTrace = {
+//   x: county,
+//   y: moderate_days,
+//   name: "Moderate Days",
+//   type: "scatter"
+// }
 
- Plotly.newPlot('line', scatterdata);
+// var goodTrace = {
+//   x: county,
+//   y: good_days,
+//   name: "Good Days",
+//   type: "scatter"
+// }
 
+var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
+
+Plotly.newPlot('line', scatterdata);
 })
 }
+
+
   
 
 //function to update charts when new state is selected
