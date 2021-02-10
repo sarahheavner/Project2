@@ -309,7 +309,6 @@ Plotly.newPlot('line', scatterdata);
 function stateOptionChanged(stateData) {
     currentState = stateData
     chartData(currentState, currentYear);
-    // chartData(chosenYear);
 };
 
 function yearOptionChanged(chosenYear) {

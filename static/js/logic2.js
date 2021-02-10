@@ -27,6 +27,7 @@ d3.json("/clean_data/combineddata.json").then((data) => {
  });
 });
 
+
 // list of years for second dropdown menu
 var year = ["2019", "2018", "2017", "2016"];
 //add each year to second dropdown menu
@@ -296,9 +297,13 @@ var unhealthySensitiveTrace = {
   marker: {size: 12}
 }
 
+var layout = {
+  title: "Count of Select AQI Classification Days Per County"
+}
+
 var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
 
-Plotly.newPlot('line', scatterdata);
+Plotly.newPlot('line', scatterdata, layout);
 })
 }
 
