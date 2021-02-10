@@ -27,7 +27,6 @@ d3.json("/clean_data/combineddata.json").then((data) => {
  });
 });
 
-
 // list of years for second dropdown menu
 var year = ["2019", "2018", "2017", "2016"];
 //add each year to second dropdown menu
@@ -63,13 +62,13 @@ d3.json("/clean_data/combineddata.json").then((data) => {
 
  //create variable for linechart
  var povertyPercent = [];
- // var aqiTotal2019 = [];
  var good_days = [];
  var moderate_days = [];
  var unhealthy_sensitive_days = [];
  var unhealthy_days = [];
  var very_unhealthy_days = [];
  var hazardous_days = [];
+ var days_with_aqi = [];
 
 if (chosenYear === "2019") {
 // loop through filtered state data and push values to variables 
@@ -91,6 +90,7 @@ for (var i = 0; i < initialChart.length; i++) {
   unhealthy_days.push(initialChart[i].unhealthy_days2019);
   very_unhealthy_days.push(initialChart[i].very_unhealthy_days2019);
   hazardous_days.push(initialChart[i].hazardous_days2019);
+  days_with_aqi.push(initialChart[i].days_with_aqi2019);
 }
 }
 
@@ -113,6 +113,7 @@ else if  (chosenYear === "2018") {
     unhealthy_days.push(initialChart[i].unhealthy_days2018);
     very_unhealthy_days.push(initialChart[i].very_unhealthy_days2018);
     hazardous_days.push(initialChart[i].hazardous_days2018);
+    days_with_aqi.push(initialChart[i].days_with_aqi2018);
   }
 }
 
@@ -135,6 +136,7 @@ else if  (chosenYear === "2017") {
     unhealthy_days.push(initialChart[i].unhealthy_days2017);
     very_unhealthy_days.push(initialChart[i].very_unhealthy_days2017);
     hazardous_days.push(initialChart[i].hazardous_days2017);
+    days_with_aqi.push(initialChart[i].days_with_aqi2017);
   }
 }
 
@@ -157,6 +159,7 @@ else if  (chosenYear === "2016") {
     unhealthy_days.push(initialChart[i].unhealthy_days2016);
     very_unhealthy_days.push(initialChart[i].very_unhealthy_days2016);
     hazardous_days.push(initialChart[i].hazardous_days2016);
+    days_with_aqi.push(initialChart[i].days_with_aqi2019);
   }
 }
 
@@ -176,6 +179,7 @@ else if  (chosenYear === "2016") {
  console.log(unhealthy_days);
  console.log(very_unhealthy_days);
  console.log(hazardous_days);
+ console.log(days_with_aqi);
 
  //inital charts
 
@@ -255,7 +259,7 @@ else if  (chosenYear === "2016") {
  var povertytrace = {
   x: county,
   y: povertyPercent,
-  name: "Poverty %",
+  name: "Poverty Percentage",
   type: "scatter",
   marker: {size: 8,
   color:"black"}
@@ -264,7 +268,7 @@ else if  (chosenYear === "2016") {
 var hazardousDaysTrace = {
   x: county,
   y: hazardous_days,
-  name: "Hazardous",
+  name: "Hazardous Days",
   type: "scatter",
   mode: 'markers',
   marker: {size: 12}
@@ -273,7 +277,7 @@ var hazardousDaysTrace = {
 var veryUnhealthyTrace = {
   x: county,
   y: very_unhealthy_days,
-  name: "Very Unhealthy",
+  name: "Very Unhealthy Days",
   type: "scatter",
   mode: 'markers',
   marker: {size: 12}
@@ -282,7 +286,7 @@ var veryUnhealthyTrace = {
 var unhealthyTrace = {
   x: county, 
   y: unhealthy_days,
-  name: "Unhealthy",
+  name: "Unhealthy Days",
   type: "scatter", 
   mode: 'markers',
   marker: {size: 12}
@@ -291,31 +295,51 @@ var unhealthyTrace = {
 var unhealthySensitiveTrace = {
   x: county,
   y: unhealthy_sensitive_days,
-  name: "Unhealthy Sensitive",
+  name: "Unhealthy Sensitive Days",
   type: "scatter",
   mode: 'markers',
   marker: {size: 12}
 }
 
-var moderateTrace = {
-  x: county,
-  y: moderate_days,
-  name: "Moderate",
-  type: "scatter",
-  mode: "markers",
-  marker: {size:12}
+var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
+
+Plotly.newPlot('line', scatterdata);
+
+
+//polar area chart
+var polarData = document.getElementById("polarArea");
+
+var coloR = [];
+
+var dynamicColors = function() {
+  var r = Math.floor(Math.random() * 255);
+  var g = Math.floor(Math.random() * 255);
+  var b = Math.floor(Math.random() * 255);
+  return "rgb(" + r + "," + g + "," + b + ")";
+};
+
+for (var i = 0; i < days_with_aqi.length; i++) {
+  coloR.push(dynamicColors());
+         }
+
+
+var polarData2 = {
+  labels: county,
+  datasets: [{
+    data: days_with_aqi,
+    backgroundColor: coloR
+  }]
+};
+
+var polarAreaChart = new Chart(polarData, {
+  type: 'polarArea',
+  data: polarData2
+});
+
+
+
+});
 }
-
-var layout = {
-  title: "Count of Select AQI Classification Days Per County"
-}
-
-var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace, moderateTrace]
-
-Plotly.newPlot('line', scatterdata, layout);
-})
-}
-
 
   
 
@@ -323,7 +347,6 @@ Plotly.newPlot('line', scatterdata, layout);
 function stateOptionChanged(stateData) {
     currentState = stateData
     chartData(currentState, currentYear);
-    // chartData(chosenYear);
 };
 
 function yearOptionChanged(chosenYear) {
