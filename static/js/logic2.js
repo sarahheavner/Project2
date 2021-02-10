@@ -255,7 +255,7 @@ else if  (chosenYear === "2016") {
  var povertytrace = {
   x: county,
   y: povertyPercent,
-  name: "Poverty Percentage",
+  name: "Poverty %",
   type: "scatter",
   marker: {size: 8,
   color:"black"}
@@ -264,7 +264,7 @@ else if  (chosenYear === "2016") {
 var hazardousDaysTrace = {
   x: county,
   y: hazardous_days,
-  name: "Hazardous Days",
+  name: "Hazardous",
   type: "scatter",
   mode: 'markers',
   marker: {size: 12}
@@ -273,7 +273,7 @@ var hazardousDaysTrace = {
 var veryUnhealthyTrace = {
   x: county,
   y: very_unhealthy_days,
-  name: "Very Unhealthy Days",
+  name: "Very Unhealthy",
   type: "scatter",
   mode: 'markers',
   marker: {size: 12}
@@ -282,7 +282,7 @@ var veryUnhealthyTrace = {
 var unhealthyTrace = {
   x: county, 
   y: unhealthy_days,
-  name: "Unhealthy Days",
+  name: "Unhealthy",
   type: "scatter", 
   mode: 'markers',
   marker: {size: 12}
@@ -291,17 +291,26 @@ var unhealthyTrace = {
 var unhealthySensitiveTrace = {
   x: county,
   y: unhealthy_sensitive_days,
-  name: "Unhealthy Sensitive Days",
+  name: "Unhealthy Sensitive",
   type: "scatter",
   mode: 'markers',
   marker: {size: 12}
+}
+
+var moderateTrace = {
+  x: county,
+  y: moderate_days,
+  name: "Moderate",
+  type: "scatter",
+  mode: "markers",
+  marker: {size:12}
 }
 
 var layout = {
   title: "Count of Select AQI Classification Days Per County"
 }
 
-var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
+var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace, moderateTrace]
 
 Plotly.newPlot('line', scatterdata, layout);
 })
