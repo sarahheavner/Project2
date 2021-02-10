@@ -183,49 +183,50 @@ else if  (chosenYear === "2016") {
  var cotrace= {
    x: county,
    y: coDays,
-   name: "CO Days",
+   name: "CO",
    type: "bar"
  };
 
  var no2trace = {
    x: county,
    y: no2Days,
-   name: "NO2 Days",
+   name: "NO2",
    type: "bar"
  };
 
  var ozonetrace = {
    x: county,
    y: ozoneDays,
-   name: "Ozone Days",
+   name: "Ozone",
    type: "bar"
  };
 
  var so2trace = {
    x: county,
    y: so2Days,
-   name: "SO2 Days",
+   name: "SO2",
    type: "bar"
  };
 
  var pm2trace = {
    x: county,
    y: pm2Days,
-   name: "PM2.5 Days",
+   name: "PM2.5",
    type: "bar"
  };
 
  var pm10trace = {
    x: county,
    y: pm10Days,
-   name: "PM10 Days",
+   name: "PM10",
    type: "bar"
  };
 
  var povertytrace = {
    x: county,
    y: povertyPercent,
-   name: "Poverty Percentage",
+   yaxis: 'y2',
+   name: "Poverty %",
    type: "scatter",
    marker: {
      color: "black",
@@ -236,7 +237,13 @@ else if  (chosenYear === "2016") {
 
  var layout = {
    barmode: "stack",
-   title: "Pollutant Breakdown Per County"
+   title: "Poverty and Contaminant Breakdown Per County",
+   yaxis: {title: 'Days Contaminant Present'},
+   yaxis2: {
+    // title: 'Poverty %',
+    overlaying: 'y',
+    side: 'right'
+   },
  };
  
  Plotly.newPlot("bar", data, layout);
@@ -279,22 +286,22 @@ else if  (chosenYear === "2016") {
    type: "scatter"
  }
 
- var moderateTrace = {
-   x: county,
-   y: moderate_days,
-   name: "Moderate Days",
-   type: "scatter"
- }
+//  var moderateTrace = {
+//    x: county,
+//    y: moderate_days,
+//    name: "Moderate Days",
+//    type: "scatter"
+//  }
 
- var goodTrace = {
-   x: county,
-   y: good_days,
-   name: "Good Days",
-   type: "scatter"
- }
+//  var goodTrace = {
+//    x: county,
+//    y: good_days,
+//    name: "Good Days",
+//    type: "scatter"
+//  }
  
- var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace, moderateTrace, goodTrace]
- 
+ var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
+
  Plotly.newPlot('line', scatterdata);
 
 })
