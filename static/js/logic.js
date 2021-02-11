@@ -286,8 +286,9 @@ function chartData(stateData, chosenYear) {
       marker: {size: 12}
     }
 
+
     layout = {
-      title: "Count of Moderate to Hazardous Days Per County",
+      title: "Count of Unhealthy to Hazardous Days Per County",
       yaxis: {title: "Days Per Classification"}
     }
 
