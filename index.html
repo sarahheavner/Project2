@@ -39,7 +39,10 @@
             It is important to remember that health is affected by many factors - lack of access to nutritious food, routine healthcare and clean water, inability to afford health insurance, and exposure to hazardous conditions at work, pre-existing or untreated health conditions- 
             all of which can contribute to a person, particularly those experiencing poverty, being more susceptible to the effects of moderate to poor air quality conditions.
             The charts are filtered by state and year for 2016 - 2019 and will update when a new state or year is selected from the dropdown menu.</p>
+          <br>
           <h4>Chart Descriptions</h4>
+          <h6>Total AQI Days Per County</h6>
+          <p>This chart visualizes the total count of days with an air pollutant present for each county.</p>
           <h6>Contaminant Breakdown Per County</h6>
           <p>This chart visualizes the count of days that each of the main contaminants were present for each county in the selected state and year against the poverty rate.
             *NOTE* Presence of an air contaminant means just that - it was present in the air.
@@ -64,9 +67,9 @@
 
         <div class="col-md-9">
           <div class="chart">
-            <canvas id="polarArea" width="600" height="400"></canvas>
+            <canvas id="polarArea" width="600" height="400"></canvas> <br>
             <div id="bar"></div> <br>
-          <div id="line"></div>
+            <div id="line"></div>
         </div>
       </div>
 
@@ -75,7 +78,7 @@
 
 
     
-
+<!--chart.js-->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
 <!--d3-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>

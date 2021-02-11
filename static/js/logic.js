@@ -132,7 +132,6 @@ function chartData(stateData, chosenYear) {
 
     else {
       for (var i = 0; i < initialChart.length; i++) {
-        //bar chart
         county.push(initialChart[i].county);
         coDays.push(initialChart[i].days_co2016);
         no2Days.push(initialChart[i].days_no2_2016);
@@ -140,9 +139,7 @@ function chartData(stateData, chosenYear) {
         so2Days.push(initialChart[i].days_so2_2016);
         pm2Days.push(initialChart[i].days_pm2_2016);
         pm10Days.push(initialChart[i].days_pm10_2016);
-        //line chart
         povertyPercent.push(initialChart[i].poverty_percentage2016);
-        // aqiTotal2019.push(initialChart[i].days_with_aqi2019);
         good_days.push(initialChart[i].good_days2016);
         moderate_days.push(initialChart[i].moderate_days2016);
         unhealthy_sensitive_days.push(initialChart[i].unhealthy_sensitive_days2016);
@@ -249,8 +246,8 @@ function chartData(stateData, chosenYear) {
       y: povertyPercent,
       name: "Poverty Percentage",
       type: "scatter",
-      marker: {size: 8,
-      color:"black"}
+      fill: 'tozeroy',
+      mode: "none"
     };
 
     var hazardousDaysTrace = {
@@ -289,9 +286,14 @@ function chartData(stateData, chosenYear) {
       marker: {size: 12}
     }
 
+    layout = {
+      title: "Count of Moderate to Hazardous Days Per County",
+      yaxis: {title: "Days Per Classification"}
+    }
+
     var scatterdata = [povertytrace, hazardousDaysTrace, veryUnhealthyTrace, unhealthyTrace, unhealthySensitiveTrace]
 
-    Plotly.newPlot('line', scatterdata);
+    Plotly.newPlot('line', scatterdata, layout);
 
 
     //polar area chart 
@@ -320,6 +322,7 @@ function chartData(stateData, chosenYear) {
       datasets: [{
         data: days_with_aqi,
         backgroundColor: color,
+        borderWidth: 4
       }]
     };
 
