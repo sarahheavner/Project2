@@ -309,8 +309,10 @@ Plotly.newPlot('line', scatterdata);
 //polar area chart
 var polarData = document.getElementById("polarArea");
 
-var coloR = [];
+//variable to store randomized colors
+var color = [];
 
+//function to create randomized color combinations 
 var dynamicColors = function() {
   var r = Math.floor(Math.random() * 255);
   var g = Math.floor(Math.random() * 255);
@@ -318,16 +320,17 @@ var dynamicColors = function() {
   return "rgb(" + r + "," + g + "," + b + ")";
 };
 
+//loop through length of data
 for (var i = 0; i < days_with_aqi.length; i++) {
-  coloR.push(dynamicColors());
+  color.push(dynamicColors());
          }
 
-
+//set options for chart
 var polarData2 = {
   labels: county,
   datasets: [{
     data: days_with_aqi,
-    backgroundColor: coloR
+    backgroundColor: color,
   }]
 };
 
